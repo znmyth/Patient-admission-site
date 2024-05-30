@@ -1,0 +1,3792 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 3888px;
+    margin: 0 auto;
+    background: #d4e5e7;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: relative;
+    width: 1440px;
+    height: 64px;
+    margin: 0 0 0 0;
+    background: #f5f5f5;
+    z-index: 25;
+  }
+  .logo-text {
+    position: absolute;
+    width: 132px;
+    height: 56px;
+    top: 5px;
+    left: 1236px;
+    background: url(./assets/images/d95869680f0dafe76de3a5559c272fb1dda2c4ce.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 243;
+  }
+  .vector {
+    position: absolute;
+    width: 3.33%;
+    height: 75%;
+    top: 12.5%;
+    left: 30.35%;
+    background: url(./assets/images/11b4f172-0a3c-434f-a299-81f5a5840374.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 244;
+  }
+  .vector-1 {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin: 14px 0 0 15px;
+    background: url(./assets/images/511cd1cb-8d25-497d-a9d9-49935821c802.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 245;
+  }
+  .rectangle-button {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    top: 12px;
+    left: 75px;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 26;
+    border-radius: 10px;
+  }
+  .login-doctors {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 105px;
+    height: 35px;
+    top: 18px;
+    left: 255px;
+    color: #5f6566;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.879px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 27;
+  }
+  .xxxxxx {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 132px;
+    height: 35px;
+    top: 20px;
+    left: 71px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.879px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 28;
+  }
+  .online-medical-consultation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 168px;
+    height: 35px;
+    top: 25px;
+    left: 937px;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.703px;
+    text-align: right;
+    z-index: 247;
+  }
+  .health-magazine {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 112px;
+    height: 35px;
+    top: 25px;
+    left: 520px;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.703px;
+    text-align: right;
+    z-index: 250;
+  }
+  .medical-centers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    top: 25px;
+    left: 730px;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.703px;
+    text-align: right;
+    z-index: 249;
+  }
+  .specialties {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    top: 25px;
+    left: 855px;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.703px;
+    text-align: right;
+    z-index: 248;
+  }
+  .appointment-booking {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 86px;
+    height: 35px;
+    top: 25px;
+    left: 1111px;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.703px;
+    text-align: right;
+    z-index: 246;
+  }
+  .services {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 64px;
+    height: 35px;
+    top: 25px;
+    left: 645px;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.703px;
+    text-align: right;
+    z-index: 251;
+  }
+  .vector-2 {
+    position: absolute;
+    width: 0.69%;
+    height: 10.94%;
+    top: 54.69%;
+    left: 59.86%;
+    background: url(./assets/images/3ffc2693-e4c0-466f-b94b-85389060eb7c.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 252;
+  }
+  .vector-3 {
+    position: absolute;
+    width: 0.69%;
+    height: 10.94%;
+    top: 54.69%;
+    left: 51.32%;
+    background: url(./assets/images/8ebfb680-dff6-48a3-91a4-838bcdf3f8ce.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 253;
+  }
+  .flex-row-a {
+    position: relative;
+    width: 262px;
+    height: 22px;
+    margin: 24px 0 0 1082px;
+    z-index: 88;
+  }
+  .internal-medicine {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 98px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.997px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 67;
+  }
+  .doctors {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 61px;
+    height: 22px;
+    top: 0;
+    left: 119px;
+    color: #959595;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.997px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 66;
+  }
+  .tabiyar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 34px;
+    height: 22px;
+    top: 0;
+    left: 205px;
+    color: #959595;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.997px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 65;
+  }
+  .tabiyar-logo {
+    position: absolute;
+    width: 15px;
+    height: 17px;
+    top: 3px;
+    left: 247px;
+    background: url(./assets/images/e1b1cceae2c64e69c472f03e566e178d0a1dac87.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 88;
+  }
+  .vector-4 {
+    position: absolute;
+    width: 2.67%;
+    height: 50%;
+    top: 27.27%;
+    left: 41.22%;
+    background: url(./assets/images/5188e16f-1243-4712-86f1-73ae2f12e6c4.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 69;
+  }
+  .vector-5 {
+    position: absolute;
+    width: 2.67%;
+    height: 50%;
+    top: 27.27%;
+    left: 72.9%;
+    background: url(./assets/images/550fc137-6d68-4237-be41-18dc03f2afc1.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 68;
+  }
+  .rectangle-6 {
+    position: relative;
+    width: 791px;
+    height: 246px;
+    margin: 936px 0 0 570px;
+    font-size: 0px;
+    background: #32aec0;
+    z-index: 95;
+    overflow: visible auto;
+    border-radius: 15px;
+  }
+  .contact-information {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 154px;
+    height: 35px;
+    margin: 24px 0 0 594px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 34.937px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 106;
+  }
+  .flex-row {
+    position: relative;
+    width: 692px;
+    height: 141px;
+    margin: -6px 0 0 57px;
+    z-index: 173;
+  }
+  .rectangle-7 {
+    position: absolute;
+    width: 144px;
+    height: 141px;
+    top: 0;
+    left: 0;
+    background: #e8e8e8;
+    z-index: 173;
+    border-radius: 15px;
+  }
+  .vector-8 {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin: 23px 0 0 46px;
+    background: url(./assets/images/29d0b69b-f72d-4ca9-b034-63bf38595f16.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 175;
+    overflow: visible auto;
+  }
+  .vector-9 {
+    position: relative;
+    width: 6px;
+    height: 6px;
+    margin: 32px 0 0 13px;
+    background: url(./assets/images/1a89e193-0089-41b2-b377-1df679336053.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 176;
+  }
+  .map-navigation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 92px;
+    height: 33px;
+    margin: 6px 0 0 26px;
+    color: #32aec0;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.291px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 174;
+  }
+  .dr-mohammad-abdoli-fahadan-clinic {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 217px;
+    height: 23px;
+    top: 17px;
+    left: 474px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 144;
+  }
+  .text-f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 189px;
+    height: 19px;
+    top: 68px;
+    left: 475px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 170;
+  }
+  .group {
+    position: absolute;
+    width: 2.75%;
+    height: 12.06%;
+    top: 50.35%;
+    left: 97.25%;
+    background: url(./assets/images/4bc40a90-a2f0-4168-b6cc-e0e309f2cf1f.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 168;
+  }
+  .clinic-phone-number {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 212px;
+    height: 19px;
+    top: 103px;
+    left: 452px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 171;
+  }
+  .vector-a {
+    position: absolute;
+    width: 2.5%;
+    height: 12.29%;
+    top: 73.05%;
+    left: 97.25%;
+    background: url(./assets/images/4942286f-2fac-4df9-83db-6c1667601e1a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 169;
+  }
+  .flex-row-f {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 461px;
+    height: 22px;
+    margin: -5px 0 0 288px;
+    z-index: 172;
+  }
+  .clinic-address {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 433px;
+    height: 19px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 172;
+  }
+  .vector-b {
+    flex-shrink: 0;
+    position: relative;
+    width: 18px;
+    height: 21px;
+    background: url(./assets/images/c2cce0fc-769a-423c-ba70-46446ffe5637.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 167;
+  }
+  .rectangle-c {
+    position: relative;
+    width: 791px;
+    height: 1009px;
+    margin: 11px 0 0 570px;
+    font-size: 0px;
+    background: #d4e5e7;
+    border: 1px solid #207689;
+    z-index: 90;
+    overflow: visible auto;
+    border-radius: 15px;
+  }
+  .comments-about-dr-mohammad-abdoli-fahadan {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 395px;
+    height: 35px;
+    margin: 24px 0 0 353px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 34.937px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 107;
+  }
+  .rectangle-d {
+    position: relative;
+    width: 706px;
+    height: 262px;
+    margin: 24px 0 0 43px;
+    background: #f5f5f5;
+    z-index: 91;
+    overflow: visible auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .flex-row-ebd {
+    position: relative;
+    width: 561px;
+    height: 57px;
+    margin: 47px 0 0 89px;
+    z-index: 234;
+  }
+  .vector-e {
+    position: absolute;
+    width: 2.32%;
+    height: 21.05%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/d681f6a2-d13f-462f-910f-0c0501fb9a90.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 182;
+  }
+  .text-13 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 7px;
+    height: 13px;
+    top: 1px;
+    left: 17px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.939px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 189;
+  }
+  .from-756-users {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 101px;
+    height: 28px;
+    top: 1px;
+    left: 398px;
+    color: #777777;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 108;
+  }
+  .rectangle-f {
+    position: absolute;
+    width: 238px;
+    height: 10px;
+    top: 2px;
+    left: 30px;
+    background: #d9d9d9;
+    z-index: 232;
+    border-radius: 30px;
+  }
+  .rectangle-10 {
+    position: relative;
+    width: 200px;
+    height: 10px;
+    margin: 0 0 0 0;
+    background: #fda700;
+    z-index: 236;
+    border-radius: 50px;
+  }
+  .text-15 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 53px;
+    height: 45px;
+    top: 7px;
+    left: 508px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 109;
+  }
+  .vector-11 {
+    position: absolute;
+    width: 2.32%;
+    height: 21.05%;
+    top: 33.33%;
+    left: 0;
+    background: url(./assets/images/fe27072b-d8d7-4e87-b4f5-0cf9d62865d2.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 183;
+  }
+  .text-16 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 6px;
+    height: 13px;
+    top: 20px;
+    left: 18px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.939px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 188;
+  }
+  .rectangle-12 {
+    position: absolute;
+    width: 238px;
+    height: 10px;
+    top: 21px;
+    left: 30px;
+    background: #d9d9d9;
+    z-index: 233;
+    border-radius: 30px;
+  }
+  .rectangle-13 {
+    position: relative;
+    width: 58px;
+    height: 10px;
+    margin: 0 0 0 0;
+    background: #fda700;
+    z-index: 235;
+    border-radius: 50px;
+  }
+  .vector-14 {
+    position: absolute;
+    width: 4.46%;
+    height: 42.11%;
+    top: 57.89%;
+    left: 60.96%;
+    background: url(./assets/images/205266be-38bc-4038-8074-143a66f2efee.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 181;
+  }
+  .vector-15 {
+    position: absolute;
+    width: 4.46%;
+    height: 42.11%;
+    top: 57.89%;
+    left: 66.84%;
+    background: url(./assets/images/d3be332d-2c42-4861-b019-d85db36ffd28.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 194;
+  }
+  .vector-16 {
+    position: absolute;
+    width: 4.46%;
+    height: 42.11%;
+    top: 57.89%;
+    left: 72.73%;
+    background: url(./assets/images/6223a76a-d890-4012-88a7-2591a3d98f8f.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 197;
+  }
+  .vector-17 {
+    position: absolute;
+    width: 4.46%;
+    height: 42.11%;
+    top: 57.89%;
+    left: 78.61%;
+    background: url(./assets/images/a21dfd3d-3ec9-4723-b7d6-430b11b8f41b.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 200;
+  }
+  .vector-18 {
+    position: absolute;
+    width: 4.46%;
+    height: 42.11%;
+    top: 57.89%;
+    left: 84.49%;
+    background: url(./assets/images/18d82d83-0da9-4ef0-9aa5-6c60c534ce7f.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 203;
+  }
+  .vector-19 {
+    position: absolute;
+    width: 2.32%;
+    height: 21.05%;
+    top: 66.67%;
+    left: 0;
+    background: url(./assets/images/511056d2-f21b-475a-921e-94cdd18e63ab.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 184;
+  }
+  .text-17 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 7px;
+    height: 13px;
+    top: 39px;
+    left: 17px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.939px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 187;
+  }
+  .rectangle-1a {
+    position: absolute;
+    width: 238px;
+    height: 10px;
+    top: 40px;
+    left: 30px;
+    background: #d9d9d9;
+    z-index: 234;
+    border-radius: 30px;
+  }
+  .rectangle-1b {
+    position: relative;
+    width: 25px;
+    height: 10px;
+    margin: 0 0 0 0;
+    background: #fda700;
+    z-index: 241;
+    border-radius: 50px;
+  }
+  .flex-row-c {
+    position: relative;
+    width: 268px;
+    height: 14px;
+    margin: 0 0 0 89px;
+    z-index: 237;
+  }
+  .vector-1c {
+    position: absolute;
+    width: 4.85%;
+    height: 85.71%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/2afb816e-d8bd-477a-aead-cb5c52439490.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 190;
+  }
+  .span {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 6px;
+    height: 13px;
+    top: 1px;
+    left: 17px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.939px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 186;
+  }
+  .rectangle-1d {
+    position: absolute;
+    width: 238px;
+    height: 10px;
+    top: 2px;
+    left: 30px;
+    background: #d9d9d9;
+    z-index: 237;
+    border-radius: 30px;
+  }
+  .rectangle-1e {
+    position: relative;
+    width: 35px;
+    height: 10px;
+    margin: 0 0 0 0;
+    background: #fda700;
+    z-index: 239;
+    border-radius: 50px;
+  }
+  .flex-row-ec {
+    position: relative;
+    width: 268px;
+    height: 14px;
+    margin: 5px 0 0 89px;
+    z-index: 238;
+  }
+  .vector-1f {
+    position: absolute;
+    width: 4.85%;
+    height: 85.71%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/45a66eb8-f379-4703-bd3f-ebcf041512de.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 191;
+  }
+  .span-20 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 4px;
+    height: 13px;
+    top: 1px;
+    left: 18px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.939px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 185;
+  }
+  .rectangle-21 {
+    position: absolute;
+    width: 238px;
+    height: 10px;
+    top: 2px;
+    left: 30px;
+    background: #d9d9d9;
+    z-index: 238;
+    border-radius: 30px;
+  }
+  .rectangle-22 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 0;
+    background: #fda700;
+    z-index: 240;
+    border-radius: 50px;
+  }
+  .flex-row-a-23 {
+    position: absolute;
+    width: 77.48%;
+    height: 12.6%;
+    top: 62.21%;
+    left: 13.46%;
+    z-index: 217;
+  }
+  .vector-24 {
+    position: absolute;
+    width: 3.63%;
+    height: 80.81%;
+    top: 0;
+    left: 49.76%;
+    background: url(./assets/images/3925c659-3e46-466c-8296-78ea3e4d684c.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 207;
+  }
+  .span-25 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 110px;
+    height: 28px;
+    top: 0;
+    left: 408px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 110;
+  }
+  .span-26 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 41px;
+    height: 28px;
+    top: 4px;
+    left: 219px;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 127;
+  }
+  .span-27 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 55px;
+    height: 28px;
+    top: 5px;
+    left: 0;
+    color: #000000;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 112;
+  }
+  .mask-group {
+    position: absolute;
+    width: 3.47%;
+    height: 57.58%;
+    top: 15.15%;
+    left: 96.53%;
+    background: url(./assets/images/7e618697-d367-4a86-a9a4-722a56ff6fe3.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 215;
+  }
+  .vector-28 {
+    position: absolute;
+    width: 4.2%;
+    height: 69.7%;
+    top: 21.21%;
+    left: 11.15%;
+    background: url(./assets/images/efe1e17d-f652-4e73-84ed-85e7eab422c5.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 217;
+  }
+  .vector-29 {
+    position: absolute;
+    width: 0.6%;
+    height: 53.66%;
+    top: 30.24%;
+    left: 48.81%;
+    background: url(./assets/images/b6854cb8-edaf-4120-9388-70139dd3674a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 208;
+  }
+  .flex-row-ca {
+    position: absolute;
+    width: 544px;
+    height: 51px;
+    top: 170px;
+    left: 95px;
+    z-index: 219;
+  }
+  .line {
+    position: absolute;
+    width: 1px;
+    height: 51px;
+    top: -0.5px;
+    left: 139.5px;
+    background: url(./assets/images/df62015b-a5c4-4905-86c2-c0f4109ea9ad.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 219;
+  }
+  .line-2a {
+    position: absolute;
+    width: 1px;
+    height: 51px;
+    top: -0.5px;
+    left: 350.5px;
+    background: url(./assets/images/567c97de-f669-43dc-8e29-63c819ad0c43.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 218;
+  }
+  .span-2b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 107px;
+    height: 23px;
+    top: 24px;
+    left: 195px;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 121;
+  }
+  .span-2c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 78px;
+    height: 23px;
+    top: 28px;
+    left: 0;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 114;
+  }
+  .span-2d {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 135px;
+    height: 23px;
+    top: 28px;
+    left: 409px;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 113;
+  }
+  .rectangle-2e {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 706px;
+    height: 63px;
+    margin: 18px 0 0 43px;
+    cursor: pointer;
+    background: #156179;
+    border: none;
+    z-index: 111;
+    border-radius: 15px;
+  }
+  .span-2f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 92px;
+    height: 33px;
+    color: #f9f9f9;
+    font-family: Inter, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 32.676px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 111;
+  }
+  .rectangle-30 {
+    position: relative;
+    width: 706px;
+    height: 212px;
+    margin: 33px 0 0 43px;
+    background: #ffffff;
+    z-index: 92;
+    overflow: visible auto;
+    border-radius: 10px;
+  }
+  .flex-row-e {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 112px;
+    height: 18px;
+    margin: 23px 0 0 31px;
+    z-index: 220;
+  }
+  .span-31 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 90px;
+    height: 18px;
+    color: #414141;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 115;
+  }
+  .vector-32 {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: url(./assets/images/c2300ac4-139a-46e7-b472-f67b9f19e76c.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 220;
+  }
+  .flex-row-a-33 {
+    position: relative;
+    width: 191.167px;
+    height: 59.167px;
+    margin: -10px 0 0 479px;
+    z-index: 204;
+  }
+  .vector-34 {
+    position: absolute;
+    width: 30.95%;
+    height: 100%;
+    top: 0;
+    left: 69.05%;
+    background: url(./assets/images/d117dc4a-64ea-4cd5-892a-fecfe869231e.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 140;
+  }
+  .span-35 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 46px;
+    height: 23px;
+    top: 5px;
+    left: 78px;
+    color: #414141;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 117;
+  }
+  .span-36 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 74px;
+    height: 17px;
+    top: 10px;
+    left: 0;
+    color: #777777;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16.821px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 119;
+  }
+  .vector-37 {
+    position: absolute;
+    width: 9.17%;
+    height: 29.64%;
+    top: 57.46%;
+    left: 55.71%;
+    background: url(./assets/images/d5993c1d-725b-4793-a50d-e422e7fed975.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 204;
+  }
+  .vector-38 {
+    position: absolute;
+    width: 9.68%;
+    height: 29.65%;
+    top: 57.59%;
+    left: 44.53%;
+    background: url(./assets/images/ecee1651-e364-4367-8985-9b03cf311f18.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 201;
+  }
+  .vector-39 {
+    position: absolute;
+    width: 9.17%;
+    height: 29.64%;
+    top: 57.71%;
+    left: 33.87%;
+    background: url(./assets/images/8937a1f6-1dc2-4287-bff4-ca264c3b3ca3.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 198;
+  }
+  .vector-3a {
+    position: absolute;
+    width: 9.68%;
+    height: 29.65%;
+    top: 57.84%;
+    left: 22.7%;
+    background: url(./assets/images/900ece31-2079-4550-894a-645a17ca88aa.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 195;
+  }
+  .vector-3b {
+    position: absolute;
+    width: 9.17%;
+    height: 29.64%;
+    top: 57.96%;
+    left: 12.03%;
+    background: url(./assets/images/3eaa6194-ca07-40c0-b7bc-6f3e1738ab10.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 192;
+  }
+  .flex-row-b {
+    position: relative;
+    width: 630.999px;
+    height: 28px;
+    margin: 16.833px 0 0 39px;
+    z-index: 216;
+  }
+  .vector-3c {
+    position: absolute;
+    width: 3.14%;
+    height: 95.24%;
+    top: 0;
+    left: 96.86%;
+    background: url(./assets/images/bac4f96d-626c-42b4-834a-e3b956207142.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 210;
+  }
+  .span-3d {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 176px;
+    height: 23px;
+    top: 5px;
+    left: 0;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 124;
+  }
+  .span-3e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 197px;
+    height: 23px;
+    top: 5px;
+    left: 396px;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 122;
+  }
+  .mask-group-3f {
+    position: absolute;
+    width: 3.01%;
+    height: 67.86%;
+    top: 28.57%;
+    left: 30.11%;
+    background: url(./assets/images/ae878992-eed7-4458-8cfa-bb50e55967c7.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 216;
+  }
+  .vector-40 {
+    position: absolute;
+    width: 0.52%;
+    height: 63.24%;
+    top: 35.64%;
+    left: 96.04%;
+    background: url(./assets/images/ff5af736-2a92-46d0-a32e-1cf3f6f39961.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 211;
+  }
+  .line-41 {
+    position: relative;
+    width: 646.667px;
+    height: 2.666px;
+    margin: 15.667px 0 0 24.667px;
+    background: url(./assets/images/5fa32b7b-4f07-435b-ab5e-4bde7dd33816.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 222;
+  }
+  .span-42 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 223px;
+    height: 23px;
+    margin: 8.667px 0 0 446px;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 125;
+  }
+  .rectangle-43 {
+    position: relative;
+    width: 706px;
+    height: 212px;
+    margin: 18px 0 0 43px;
+    background: #ffffff;
+    z-index: 93;
+    overflow: visible auto;
+    border-radius: 15px;
+  }
+  .flex-row-44 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 94px;
+    height: 18px;
+    margin: 23px 0 0 27px;
+    z-index: 221;
+  }
+  .span-45 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 73px;
+    height: 18px;
+    color: #414141;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 116;
+  }
+  .vector-46 {
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: url(./assets/images/bb9d1f10-4fa1-486b-9c96-1a6dff35e61c.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 221;
+  }
+  .flex-row-fb {
+    position: relative;
+    width: 186.167px;
+    height: 59.167px;
+    margin: -10px 0 0 484px;
+    z-index: 205;
+  }
+  .vector-47 {
+    position: absolute;
+    width: 31.78%;
+    height: 100%;
+    top: 0;
+    left: 68.22%;
+    background: url(./assets/images/4efc8917-f891-4527-83d6-7aef73ca6287.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 141;
+  }
+  .span-48 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 41px;
+    height: 23px;
+    top: 5px;
+    left: 78px;
+    color: #414141;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 118;
+  }
+  .span-49 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    top: 10px;
+    left: 0;
+    color: #777777;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16.821px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 120;
+  }
+  .vector-4a {
+    position: absolute;
+    width: 9.42%;
+    height: 29.64%;
+    top: 57.46%;
+    left: 54.52%;
+    background: url(./assets/images/99d07f85-2c5a-456b-99b3-62532d7818d7.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 205;
+  }
+  .vector-4b {
+    position: absolute;
+    width: 9.94%;
+    height: 29.65%;
+    top: 57.59%;
+    left: 43.04%;
+    background: url(./assets/images/d3afe9c9-fbc9-40a0-a057-5c4f93f3945f.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 202;
+  }
+  .vector-4c {
+    position: absolute;
+    width: 9.42%;
+    height: 29.64%;
+    top: 57.71%;
+    left: 32.09%;
+    background: url(./assets/images/98ca4362-58ea-4427-a96c-7ff261ddb325.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 199;
+  }
+  .vector-4d {
+    position: absolute;
+    width: 9.94%;
+    height: 29.65%;
+    top: 57.84%;
+    left: 20.62%;
+    background: url(./assets/images/efa0abc3-ee3d-4ac2-b8cb-2a2be812135b.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 196;
+  }
+  .vector-4e {
+    position: absolute;
+    width: 9.42%;
+    height: 29.64%;
+    top: 57.96%;
+    left: 9.67%;
+    background: url(./assets/images/f1d3a403-1e36-44b9-80f0-424bcd002fd2.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 193;
+  }
+  .flex-row-4f {
+    position: relative;
+    width: 240.999px;
+    height: 31.686px;
+    margin: 21.833px 0 0 429px;
+    z-index: 214;
+  }
+  .not-recommended {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 203px;
+    height: 23px;
+    top: 0;
+    left: 0;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 123;
+  }
+  .vector-50 {
+    position: absolute;
+    width: 1.37%;
+    height: 55.88%;
+    top: 12.62%;
+    left: 89.63%;
+    background: url(./assets/images/64577777-416a-4bc3-b811-3772bc276f49.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 214;
+  }
+  .vector-51 {
+    position: absolute;
+    width: 8.23%;
+    height: 84.16%;
+    top: 15.84%;
+    left: 91.77%;
+    background: url(./assets/images/838211ae-8902-493d-b7ed-80e898f105f0.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 213;
+  }
+  .line-52 {
+    position: relative;
+    width: 646.667px;
+    height: 2.666px;
+    margin: 6.981px 0 0 24.667px;
+    background: url(./assets/images/d149dadd-dd70-45fe-a961-d88a2a6484e3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 223;
+  }
+  .rude-impatient {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 196px;
+    height: 23px;
+    margin: 8.667px 0 0 473px;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 126;
+  }
+  .flex-row-53 {
+    position: relative;
+    width: 379px;
+    height: 27px;
+    margin: 46px 0 0 206px;
+    z-index: 231;
+  }
+  .ellipsis {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 17px;
+    height: 23px;
+    top: 0;
+    left: 130px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 226;
+  }
+  .vector-54 {
+    position: absolute;
+    width: 3.43%;
+    height: 77.78%;
+    top: 14.81%;
+    left: 96.57%;
+    background: url(./assets/images/58c777bd-76e8-4148-98a6-aeac785a9daa.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 225;
+  }
+  .vector-55 {
+    position: absolute;
+    width: 3.69%;
+    height: 77.78%;
+    top: 14.81%;
+    left: 0;
+    background: url(./assets/images/dfa4c96c-873e-4a64-b64f-1bb39d00e478.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 224;
+  }
+  .number-220 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 28px;
+    height: 23px;
+    top: 4px;
+    left: 73px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 231;
+  }
+  .number-4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 11px;
+    height: 23px;
+    top: 4px;
+    left: 178px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 230;
+  }
+  .number-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 13px;
+    height: 23px;
+    top: 4px;
+    left: 218px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 228;
+  }
+  .number-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 10px;
+    height: 23px;
+    top: 4px;
+    left: 263px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 229;
+  }
+  .number-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 6px;
+    height: 23px;
+    top: 4px;
+    left: 307px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 227;
+  }
+  .rectangle-56 {
+    position: relative;
+    width: 791px;
+    height: 246px;
+    margin: 10px 0 0 570px;
+    font-size: 0px;
+    background: #d4e5e7;
+    border: 1px solid #207689;
+    z-index: 96;
+    overflow: visible auto;
+    border-radius: 15px;
+  }
+  .guide-appointment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 492px;
+    height: 35px;
+    margin: 24px 0 0 247px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 34.937px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 128;
+  }
+  .more {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 41px;
+    height: 23px;
+    margin: 121px 0 0 375px;
+    color: #4697b0;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 179;
+  }
+  .vector-57 {
+    position: relative;
+    width: 14.062px;
+    height: 8.994px;
+    margin: 11.001px 0 0 389px;
+    background: url(./assets/images/6df52fde-5743-4508-92b6-4eda07fdbf4d.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 180;
+  }
+  .doctor-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 689px;
+    height: 105px;
+    top: 78px;
+    left: 50px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.703px;
+    text-align: right;
+    z-index: 139;
+  }
+  .rectangle-58 {
+    position: absolute;
+    width: 712px;
+    height: 71px;
+    top: 111px;
+    left: 48px;
+    background: url(./assets/images/e23867f2-60b4-4c31-9b8f-ecf4ad6827a7.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 146;
+  }
+  .rectangle-59 {
+    position: relative;
+    width: 791px;
+    height: 710px;
+    margin: 11px 0 0 570px;
+    font-size: 0px;
+    background: #d4e5e7;
+    border: 1px solid #207689;
+    z-index: 97;
+    overflow: visible auto;
+    border-radius: 15px;
+  }
+  .faq {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 510px;
+    height: 35px;
+    margin: 24px 0 0 229px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 34.937px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 129;
+  }
+  .rectangle-5a {
+    position: relative;
+    width: 689px;
+    height: 125px;
+    margin: 18px 0 0 51px;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 98;
+    overflow: visible auto;
+    border-radius: 15px;
+  }
+  .line-5b {
+    position: relative;
+    width: 628.667px;
+    height: 2.666px;
+    margin: 58.667px 0 0 33.667px;
+    background: url(./assets/images/694ee011-9bbd-4a8e-833e-efb5a4fe557e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 177;
+  }
+  .quick-appointment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 626px;
+    height: 36px;
+    margin: 9.667px 0 0 35px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.115px;
+    text-align: right;
+    z-index: 178;
+  }
+  .how-to-book {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 552px;
+    height: 23px;
+    top: 18px;
+    left: 109px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 130;
+  }
+  .vector-5c {
+    position: absolute;
+    width: 2.04%;
+    height: 7.19%;
+    top: 23.2%;
+    left: 5.08%;
+    background: url(./assets/images/d4ae136e-76ec-4c72-b547-0d6923b107a2.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 148;
+  }
+  .rectangle-5d {
+    position: relative;
+    width: 689px;
+    height: 60px;
+    margin: 18px 0 0 51px;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 99;
+    border-radius: 15px;
+  }
+  .visit-cost {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 355px;
+    height: 23px;
+    top: 19px;
+    left: 306px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 131;
+  }
+  .vector-5e {
+    position: absolute;
+    width: 2.04%;
+    height: 14.99%;
+    top: 50%;
+    left: 5.08%;
+    background: url(./assets/images/f2a0e935-c4ab-4601-b7cd-28c5de8afd2b.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 149;
+  }
+  .rectangle-5f {
+    position: relative;
+    width: 689px;
+    height: 60px;
+    margin: 17px 0 0 51px;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 101;
+    border-radius: 15px;
+  }
+  .clinic-address-60 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 328px;
+    height: 23px;
+    top: 17px;
+    left: 333px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 134;
+  }
+  .vector-61 {
+    position: absolute;
+    width: 2.04%;
+    height: 14.99%;
+    top: 46.67%;
+    left: 5.08%;
+    background: url(./assets/images/dcd0b308-e849-44ff-980d-6f1ef22244ed.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 152;
+  }
+  .rectangle-62 {
+    position: relative;
+    width: 689px;
+    height: 60px;
+    margin: 17px 0 0 51px;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 103;
+    border-radius: 15px;
+  }
+  .online-consultation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 375px;
+    height: 23px;
+    top: 17px;
+    left: 286px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 132;
+  }
+  .vector-63 {
+    position: absolute;
+    width: 2.04%;
+    height: 14.99%;
+    top: 46.67%;
+    left: 5.08%;
+    background: url(./assets/images/23a26a03-0c95-4d9c-b4f7-425a473834c9.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 150;
+  }
+  .rectangle-64 {
+    position: relative;
+    width: 689px;
+    height: 60px;
+    margin: 17px 0 0 51px;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 100;
+    border-radius: 15px;
+  }
+  .medical-specialties {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 470px;
+    height: 23px;
+    top: 15px;
+    left: 191px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 135;
+  }
+  .vector-65 {
+    position: absolute;
+    width: 2.04%;
+    height: 14.99%;
+    top: 43.33%;
+    left: 5.08%;
+    background: url(./assets/images/aab0ee55-297b-4ebc-9d41-26e078b1f7b4.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 153;
+  }
+  .rectangle-66 {
+    position: relative;
+    width: 689px;
+    height: 60px;
+    margin: 17px 0 0 51px;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 102;
+    border-radius: 15px;
+  }
+  .nearest-appointment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 438px;
+    height: 23px;
+    top: 16px;
+    left: 223px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 133;
+  }
+  .vector-67 {
+    position: absolute;
+    width: 2.04%;
+    height: 14.99%;
+    top: 45%;
+    left: 5.08%;
+    background: url(./assets/images/edf7e338-2ee1-4537-9310-64b9fe0f1367.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 151;
+  }
+  .rectangle-68 {
+    position: relative;
+    width: 689px;
+    height: 60px;
+    margin: 17px 0 0 51px;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 104;
+    border-radius: 15px;
+  }
+  .patient-satisfaction {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 486px;
+    height: 23px;
+    top: 14px;
+    left: 175px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 136;
+  }
+  .vector-69 {
+    position: absolute;
+    width: 2.04%;
+    height: 14.99%;
+    top: 41.67%;
+    left: 5.08%;
+    background: url(./assets/images/83f02ebc-01dd-4955-b892-c10e82f59680.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 154;
+  }
+  .rectangle-6a {
+    position: relative;
+    width: 1440px;
+    height: 573px;
+    margin: 26px 0 0 0;
+    background: #207689;
+  }
+  .useful-links {
+    position: absolute;
+    width: 88.96%;
+    height: 83.94%;
+    top: 12.91%;
+    left: 5.69%;
+    z-index: 254;
+  }
+  .logo-text-6b {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 127px;
+    height: 35px;
+    top: 0;
+    left: 690px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.879px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .about-us {
+    position: absolute;
+    width: 167px;
+    height: 70px;
+    top: 0;
+    left: 1114px;
+    background: url(./assets/images/4c95051d90bde9f1187ce15c06c879a606444b40.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 254;
+  }
+  .tab-yar-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 208px;
+    height: 446px;
+    top: 35px;
+    left: 609px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.879px;
+    text-align: right;
+    z-index: 7;
+  }
+  .tab-yar-info-6c {
+    position: absolute;
+    width: 486px;
+    height: 200px;
+    top: 41px;
+    left: 0;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.205px;
+    text-align: right;
+    z-index: 6;
+  }
+  .tab-yar-info-6d {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.205px;
+    text-align: right;
+  }
+  .tab-yar-info-6e {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.205px;
+    text-align: right;
+  }
+  .tab-yar-info-6f {
+    position: relative;
+    color: #ebfafb;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.205px;
+    text-align: right;
+  }
+  .tab-yar-info-70 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 312px;
+    height: 35px;
+    top: 90px;
+    left: 934px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.879px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .vector-71 {
+    position: absolute;
+    width: 1.56%;
+    height: 4.99%;
+    top: 18.71%;
+    left: 97.66%;
+    background: url(./assets/images/aa51e077-9621-4021-84f2-f461300c3458.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 12;
+  }
+  .phone-icon {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 114px;
+    left: 1252px;
+    z-index: 17;
+    overflow: hidden;
+  }
+  .phone-number {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 161px;
+    height: 35px;
+    top: 140px;
+    left: 1084px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.879px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .vector-72 {
+    position: absolute;
+    width: 1.35%;
+    height: 3.6%;
+    top: 29.59%;
+    left: 97.92%;
+    background: url(./assets/images/eb6bb464-accd-4423-87d3-69b28f6ef0ae.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 18;
+  }
+  .social-media-follow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 312px;
+    height: 35px;
+    top: 186px;
+    left: 963px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.879px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .group-73 {
+    position: absolute;
+    width: 2.5%;
+    height: 6.65%;
+    top: 46.15%;
+    left: 97.03%;
+    background: url(./assets/images/fbbf39c0-aafe-4de2-b993-785f5b6b3d6a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 13;
+  }
+  .vector-74 {
+    position: absolute;
+    width: 2.11%;
+    height: 5.61%;
+    top: 46.78%;
+    left: 89.77%;
+    background: url(./assets/images/05239490-6ab6-4e2c-baca-2a89f82b7b68.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 15;
+  }
+  .vector-75 {
+    position: absolute;
+    width: 2.11%;
+    height: 5.61%;
+    top: 46.78%;
+    left: 93.75%;
+    background: url(./assets/images/fdcea850-555f-4cd0-bff4-c87d4d587f9d.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 14;
+  }
+  .address {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 312px;
+    height: 56px;
+    top: 284px;
+    left: 931px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.879px;
+    text-align: right;
+    z-index: 10;
+  }
+  .vector-76 {
+    position: absolute;
+    width: 1.87%;
+    height: 5.81%;
+    top: 59.46%;
+    left: 97.66%;
+    background: url(./assets/images/2b3c4e1b-d1ee-4366-962b-90642cf522e3.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 16;
+  }
+  .certificates {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 127px;
+    height: 35px;
+    top: 309px;
+    left: 359px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.205px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .rectangle-77 {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    top: 350px;
+    left: 294px;
+    background: #ffffff;
+    z-index: 19;
+    border-radius: 15px;
+  }
+  .rectangle-78 {
+    position: relative;
+    width: 86px;
+    height: 86px;
+    margin: 0 0 0 1px;
+    background: url(./assets/images/06c0afeb24f932f118abd5fa01c6f381ebf20185.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 22;
+    border-radius: 15px;
+  }
+  .rectangle-79 {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    top: 350px;
+    left: 399px;
+    background: #ffffff;
+    z-index: 20;
+    border-radius: 15px;
+  }
+  .rectangle-7a {
+    position: relative;
+    width: 80px;
+    height: 84px;
+    margin: 3px 0 0 4px;
+    background: url(./assets/images/75be75d493e7b8c412c75c34ddaddd7b3661bdc0.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 21;
+    border-radius: 15px;
+  }
+  .postal-code {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 174px;
+    height: 35px;
+    top: 356px;
+    left: 1069px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.879px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .vector-7b {
+    position: absolute;
+    width: 1.8%;
+    height: 3.74%;
+    top: 74.43%;
+    left: 97.66%;
+    background: url(./assets/images/e3e6bc2b-b2c9-4dbc-9597-b8356a31e158.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 23;
+  }
+  .rights {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 332px;
+    height: 26px;
+    top: 404px;
+    left: 915px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.879px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .vector-7c {
+    position: absolute;
+    width: 1.64%;
+    height: 4.37%;
+    top: 84.62%;
+    left: 97.81%;
+    background: url(./assets/images/5f86f683-24b1-4a11-8219-e4e776453fa4.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 24;
+  }
+  .tabiyar-7d {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 461px;
+    height: 35px;
+    top: 74px;
+    left: 107px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.205px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .flex-row-dd {
+    position: absolute;
+    width: 1311px;
+    height: 422px;
+    top: 123px;
+    left: 51px;
+    z-index: 55;
+  }
+  .rectangle-7e {
+    position: absolute;
+    width: 480px;
+    height: 233px;
+    top: 0;
+    left: 23px;
+    font-size: 0px;
+    background: #ffffff;
+    z-index: 30;
+    border-radius: 15px;
+  }
+  .appointment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 188px;
+    height: 31px;
+    margin: 15px 0 0 270px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 40;
+  }
+  .flex-row-eb {
+    position: relative;
+    width: 409px;
+    height: 46px;
+    margin: 21px 0 0 49px;
+    z-index: 62;
+  }
+  .address-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 382px;
+    height: 46px;
+    top: 0;
+    left: 0;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.291px;
+    text-align: right;
+    z-index: 50;
+  }
+  .vector-7f {
+    position: absolute;
+    width: 4.4%;
+    height: 45.65%;
+    top: 4.35%;
+    left: 95.6%;
+    background: url(./assets/images/f218fa19-3a29-45f4-aaa1-e7edb615da0d.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 62;
+  }
+  .next-appointment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 126px;
+    height: 21px;
+    margin: 22px 0 0 331px;
+    color: #595959;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.703px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 53;
+  }
+  .get-appointment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 435px;
+    height: 49px;
+    margin: 8px 0 0 23px;
+    cursor: pointer;
+    background: #156179;
+    border: none;
+    z-index: 42;
+    border-radius: 15px;
+  }
+  .get-appointment-80 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 120px;
+    height: 31px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 42;
+  }
+  .rectangle-81 {
+    position: absolute;
+    width: 791px;
+    height: 422px;
+    top: 0;
+    left: 520px;
+    background: #32aec0;
+    z-index: 29;
+    border-radius: 15px;
+  }
+  .flex-row-e-82 {
+    position: relative;
+    width: 707px;
+    height: 145px;
+    margin: 41px 0 0 36px;
+    z-index: 80;
+  }
+  .ellipse {
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    top: 0;
+    left: 562px;
+    background: url(./assets/images/1a97c90a-b7ef-4acc-9288-0c38aa338222.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 79;
+    border-radius: 50%;
+  }
+  .regroup {
+    position: absolute;
+    width: 329px;
+    height: 145px;
+    top: 0;
+    left: 0;
+    z-index: 38;
+  }
+  .rectangle-83 {
+    position: absolute;
+    width: 73px;
+    height: 72px;
+    top: 73px;
+    left: 0;
+    background: #ffffff;
+    z-index: 35;
+    border-radius: 15px;
+  }
+  .comments {
+    position: relative;
+    width: 37px;
+    height: 29px;
+    margin: 12px 0 0 17px;
+    z-index: 72;
+    overflow: hidden;
+  }
+  .vector-84 {
+    position: relative;
+    width: 36.999px;
+    height: 29px;
+    margin: 0 0 0 0px;
+    background: url(./assets/images/414f9a59-4ac0-43c2-a6c1-4d09da08ee04.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 73;
+  }
+  .comments-85 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 36px;
+    height: 17px;
+    margin: 4px 0 0 18px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.527px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 47;
+  }
+  .rectangle-86 {
+    position: absolute;
+    width: 73px;
+    height: 72px;
+    top: 73px;
+    left: 85px;
+    background: #ffffff;
+    z-index: 36;
+    border-radius: 15px;
+  }
+  .vector-87 {
+    position: relative;
+    width: 25px;
+    height: 30px;
+    margin: 11px 0 0 24px;
+    background: url(./assets/images/f75a01da-4b73-4cb4-821b-7da85922a95a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 63;
+  }
+  .address-88 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 32px;
+    height: 17px;
+    margin: 4px 0 0 20px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.527px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 46;
+  }
+  .rectangle-89 {
+    position: absolute;
+    width: 73px;
+    height: 72px;
+    top: 73px;
+    left: 171px;
+    background: #ffffff;
+    z-index: 37;
+    border-radius: 15px;
+  }
+  .introduction {
+    position: relative;
+    width: 33px;
+    height: 35px;
+    margin: 9px 0 0 21px;
+    background: url(./assets/images/d1246dd6-febb-4ce4-a74b-c632c13c8169.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 81;
+  }
+  .rectangle-8a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 36px;
+    height: 17px;
+    margin: 1px 0 0 18px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.527px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 44;
+  }
+  .guide-board {
+    position: absolute;
+    width: 73px;
+    height: 72px;
+    top: 73px;
+    left: 256px;
+    background: #ffffff;
+    z-index: 38;
+    border-radius: 15px;
+  }
+  .group-8b {
+    position: relative;
+    width: 29px;
+    height: 30px;
+    margin: 11px 0 0 22px;
+    z-index: 77;
+    overflow: hidden;
+  }
+  .guide {
+    position: relative;
+    width: 21.75px;
+    height: 23.75px;
+    margin: 2.5px 0 0 3.625px;
+    background: url(./assets/images/b4ad336b-251b-4046-a326-2d2bfee7d628.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 78;
+  }
+  .vector-8c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 32px;
+    height: 17px;
+    margin: 4px 0 0 22px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.527px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 45;
+  }
+  .flex-row-c-8d {
+    position: absolute;
+    width: 12.73%;
+    height: 65.52%;
+    top: 13.79%;
+    left: 83.45%;
+    background: url(./assets/images/5c0f4a29-97a5-4654-9a62-3921e1d01566.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 80;
+  }
+  .doctor-name {
+    position: relative;
+    width: 362px;
+    height: 36px;
+    margin: 15px 0 0 381px;
+    z-index: 242;
+  }
+  .share {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 261px;
+    height: 35px;
+    top: 0;
+    left: 101px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 34.937px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 39;
+  }
+  .vector-8e {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 3px;
+    left: 0;
+    z-index: 74;
+    overflow: hidden;
+  }
+  .vector-8f {
+    position: relative;
+    width: 24.75px;
+    height: 27.5px;
+    margin: 2.75px 0 0 4.125px;
+    background: url(./assets/images/73964c63-fe4e-4e39-b365-95f2bab68782.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 75;
+  }
+  .flex-row-d {
+    position: absolute;
+    width: 6.35%;
+    height: 82.14%;
+    top: 11.11%;
+    left: 14.09%;
+    background: url(./assets/images/f69dc9e5-6ba6-486d-bef3-0f26078b844b.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 242;
+  }
+  .specialization {
+    position: relative;
+    width: 704px;
+    height: 56px;
+    margin: -2px 0 0 39px;
+    z-index: 82;
+  }
+  .vector-90 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 471px;
+    height: 56px;
+    top: 0;
+    left: 233px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.467px;
+    text-align: right;
+    z-index: 48;
+  }
+  .opinion {
+    position: absolute;
+    width: 3.69%;
+    height: 44.64%;
+    top: 50%;
+    left: 0;
+    background: url(./assets/images/d6beee4a-bac2-4ebd-87fd-606c79675233.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 82;
+  }
+  .opinion-91 {
+    position: absolute;
+    width: 67px;
+    height: 23px;
+    top: 29px;
+    left: 35px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.523px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 58;
+  }
+  .opinion-92 {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.523px;
+    text-align: right;
+  }
+  .rating {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: right;
+  }
+  .flex-row-f-93 {
+    position: relative;
+    width: 707px;
+    height: 45px;
+    margin: 13px 0 0 36px;
+    z-index: 85;
+  }
+  .like {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 0;
+    left: 0;
+    z-index: 85;
+    overflow: hidden;
+  }
+  .vector-94 {
+    position: absolute;
+    width: 62%;
+    height: 83.34%;
+    top: 8.33%;
+    left: 25.5%;
+    background: url(./assets/images/0604f3bc-d37b-4b24-a0c6-8242720e605e.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 86;
+  }
+  .vector-95 {
+    position: absolute;
+    width: 10.31%;
+    height: 55.33%;
+    top: 39.52%;
+    left: 9.38%;
+    background: url(./assets/images/a5ea17b3-eb9d-4266-83f4-c322c252e916.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 87;
+  }
+  .regroup-96 {
+    position: absolute;
+    width: 6.65%;
+    height: 100%;
+    top: 0;
+    left: 93.35%;
+    z-index: 61;
+  }
+  .span-qom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 20px;
+    height: 23px;
+    top: 22px;
+    left: 0;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 49;
+  }
+  .vector-97 {
+    position: absolute;
+    width: 38.3%;
+    height: 46.67%;
+    top: 51.11%;
+    left: 61.7%;
+    background: url(./assets/images/863685c6-2f5c-401a-9ecd-a07f5c75fab7.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 61;
+  }
+  .line-98 {
+    position: absolute;
+    width: 482.667px;
+    height: 2.666px;
+    top: 4.667px;
+    left: 225.667px;
+    background: url(./assets/images/7a7a9916-4e28-4296-b55e-6e79ebb617ca.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 64;
+  }
+  .user-suggestion {
+    position: absolute;
+    width: 114px;
+    height: 27px;
+    top: 7px;
+    left: 34px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 9.682px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 60;
+  }
+  .span-user-suggestion {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    text-align: right;
+  }
+  .span-space {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 9.682px;
+    text-align: right;
+  }
+  .percent {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: right;
+  }
+  .flex-row-ed {
+    position: relative;
+    width: 707px;
+    height: 29px;
+    margin: 6px 0 0 39px;
+    z-index: 83;
+  }
+  .teenyicons-tick-circle-solid {
+    position: absolute;
+    width: 24px;
+    height: 23px;
+    top: 0;
+    left: 0;
+    z-index: 83;
+    overflow: hidden;
+  }
+  .vector-99 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/36277806-bdd3-4749-adc1-bd248344a4ef.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 84;
+  }
+  .successful-appointment {
+    position: absolute;
+    width: 94px;
+    height: 27px;
+    top: 0;
+    left: 28px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 9.682px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 59;
+  }
+  .span-successful-appointment {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    text-align: right;
+  }
+  .span-toman {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 9.682px;
+    text-align: right;
+  }
+  .span-995 {
+    position: relative;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: right;
+  }
+  .mdi-shield-tick {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 5px;
+    left: 683px;
+    z-index: 70;
+    overflow: hidden;
+  }
+  .vector-9a {
+    position: relative;
+    width: 18px;
+    height: 22px;
+    margin: 1px 0 0 3px;
+    background: url(./assets/images/7eaff6b9-63c8-4d60-a6d3-aa52d993f932.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 71;
+  }
+  .span-medical-code {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 174px;
+    height: 23px;
+    top: 6px;
+    left: 503px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 57;
+  }
+  .span-appointment-time {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 225px;
+    height: 21px;
+    top: 135px;
+    left: 0;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.703px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 55;
+  }
+  .flex-row-edf {
+    position: absolute;
+    width: 1287px;
+    height: 663px;
+    top: 372px;
+    left: 74px;
+    z-index: 89;
+  }
+  .rectangle-9b {
+    position: absolute;
+    width: 480px;
+    height: 233px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 31;
+    border-radius: 15px;
+  }
+  .flex-row-fba {
+    position: relative;
+    width: 435px;
+    height: 39px;
+    margin: 15px 0 0 23px;
+    z-index: 41;
+  }
+  .button-rectangle {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 34;
+    border-radius: 40px;
+  }
+  .span-consultation-fee {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 122px;
+    height: 22px;
+    top: 8px;
+    left: 12px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 52;
+  }
+  .span-phone-consultation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 177px;
+    height: 31px;
+    top: 0;
+    left: 258px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 41;
+  }
+  .flex-row-ce {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 237.334px;
+    height: 22px;
+    margin: 13px 0 0 220px;
+    z-index: 76;
+  }
+  .span-phone-call-duration {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 211px;
+    height: 22px;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 51;
+  }
+  .vector-9c {
+    flex-shrink: 0;
+    position: relative;
+    width: 17.334px;
+    height: 17.333px;
+    background: url(./assets/images/f597acc2-c793-42ae-a204-cc1da4c80773.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 76;
+  }
+  .flex-row-d-9d {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 456px;
+    height: 21px;
+    margin: 46px 0 0 2px;
+    z-index: 56;
+  }
+  .span-appointment-time-9e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 201px;
+    height: 21px;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.703px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 56;
+  }
+  .span-first-available-appointment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 126px;
+    height: 21px;
+    color: #595959;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.703px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 54;
+  }
+  .button-rectangle-9f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 435px;
+    height: 49px;
+    margin: 8px 0 0 23px;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    z-index: 43;
+    border-radius: 15px;
+  }
+  .span-get-consultation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    width: 139px;
+    height: 31px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 43;
+  }
+  .rectangle-a0 {
+    position: absolute;
+    width: 791px;
+    height: 474px;
+    top: 189px;
+    left: 496px;
+    font-size: 0px;
+    background: #d4e5e7;
+    border: 1px solid #207689;
+    z-index: 89;
+    border-radius: 15px;
+  }
+  .span-about-doctor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 325px;
+    height: 35px;
+    margin: 24px 0 0 424px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 34.937px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 105;
+  }
+  .flex-row-fe {
+    position: relative;
+    width: 192px;
+    height: 29px;
+    margin: 9px 0 0 557px;
+    z-index: 143;
+  }
+  .rectangle-a1 {
+    position: absolute;
+    width: 73px;
+    height: 29px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 142;
+    border-radius: 10px;
+  }
+  .span-medical-code-a2 {
+    position: absolute;
+    width: 182px;
+    height: 23px;
+    top: 3px;
+    left: 10px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.784px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 143;
+  }
+  .span-medical-code-a3 {
+    position: relative;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.784px;
+    text-align: right;
+  }
+  .span-128479 {
+    position: relative;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.784px;
+    text-align: right;
+  }
+  .flex-row-cb {
+    position: relative;
+    width: 746px;
+    height: 200px;
+    margin: 13px 0 0 19px;
+    z-index: 145;
+  }
+  .span-doctor-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 705px;
+    height: 189px;
+    top: 0;
+    left: 25px;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.703px;
+    text-align: right;
+    z-index: 138;
+  }
+  .rectangle-a4 {
+    position: absolute;
+    width: 746px;
+    height: 75px;
+    top: 125px;
+    left: 0;
+    background: url(./assets/images/390afa92-8c97-4dc8-bef2-6ade77a0ca9e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 145;
+  }
+  .span-read-more {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    width: 41px;
+    height: 23px;
+    margin: 1px 0 0 375px;
+    color: #4c4c4c;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 137;
+  }
+  .vector-a5 {
+    position: relative;
+    width: 14.062px;
+    height: 8.994px;
+    margin: 11px 0 0 389px;
+    background: url(./assets/images/bad320c5-d95f-45c5-8fb6-e33d0cdbb51d.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 147;
+  }
+  .flex-row-a6 {
+    position: relative;
+    width: 618px;
+    height: 26px;
+    margin: 44.007px 0 0 131px;
+    z-index: 160;
+  }
+  .rectangle-a7 {
+    position: absolute;
+    width: 114px;
+    height: 26px;
+    top: 0;
+    left: 0;
+    background: #156179;
+    z-index: 156;
+    border-radius: 30px;
+  }
+  .span-adrenal-cancer-treatment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 76px;
+    height: 13px;
+    top: 5px;
+    left: 19px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.939px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 162;
+  }
+  .button-rectangle-a8 {
+    position: absolute;
+    width: 116px;
+    height: 26px;
+    top: 0;
+    left: 117px;
+    cursor: pointer;
+    background: #156179;
+    border: none;
+    z-index: 160;
+    border-radius: 30px;
+  }
+  .span-growth-and-development-disorders {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 78px;
+    height: 13px;
+    top: 5px;
+    left: 19px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.939px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 166;
+  }
+  .rectangle-a9 {
+    position: absolute;
+    width: 148px;
+    height: 26px;
+    top: 0;
+    left: 236px;
+    background: #156179;
+    z-index: 159;
+    border-radius: 30px;
+  }
+  .span-internal-medicine-specialist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 108px;
+    height: 13px;
+    top: 5px;
+    left: 20px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.939px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 165;
+  }
+  .rectangle-aa {
+    position: absolute;
+    width: 231px;
+    height: 26px;
+    top: 0;
+    left: 387px;
+    background: #156179;
+    z-index: 155;
+    border-radius: 30px;
+  }
+  .button-gastroenterology-and-hepatology-specialist {
+    position: absolute;
+    width: 185px;
+    height: 13px;
+    top: 5px;
+    left: 26px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.939px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    z-index: 161;
+  }
+  .flex-row-bd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 231px;
+    height: 26px;
+    margin: 6px 0 0 518px;
+    z-index: 158;
+  }
+  .rectangle-ab {
+    flex-shrink: 0;
+    position: relative;
+    width: 145px;
+    height: 26px;
+    background: #156179;
+    z-index: 158;
+    border-radius: 30px;
+  }
+  .span-blood-fat-and-infertility-treatment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 105px;
+    height: 13px;
+    top: 5px;
+    left: 22px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.939px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 164;
+  }
+  .rectangle-ac {
+    flex-shrink: 0;
+    position: relative;
+    width: 83px;
+    height: 26px;
+    background: #156179;
+    z-index: 157;
+    border-radius: 30px;
+  }
+  .span-diabetes-and-obesity {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    top: 5px;
+    left: 16px;
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.939px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 163;
+  }
+  
