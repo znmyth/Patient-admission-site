@@ -128,7 +128,7 @@ nav-item.dropdown {
   width: 93%;
   height: 300px;
   direction: rtl;
-  margin-bottom: -90px;
+  margin-bottom: -70px;
 }
 
 
@@ -151,7 +151,7 @@ nav-item.dropdown {
   width: 93%;
   height: 300px;
   direction: rtl;
-  margin-bottom: 90px;
+  margin-bottom: 110px;
 }
 .card1{
   width: 288px;
@@ -168,11 +168,65 @@ nav-item.dropdown {
   margin-right: -20px;
 }
 
+.swiper2 {
+  width: 93%;
+  height: 300px;
+  direction: rtl;
+  margin-bottom: -50px;
+}
+.card2{
+  width: 189px;
+  height: 222px;
+  border: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  direction: ltr;
+  margin-right: -20px;
+}
 
+.swiper3 {
+  width: 93%;
+  height: 300px;
+  direction: rtl;
+  margin-bottom: 110px;
+}
+.card3 {
+  width: 189px;
+  height: 222px;
+  border: #ffffff;
+  margin-top: 75px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  direction: ltr;
+  margin-right: 40px;
+}
 
-
-
-
+.swiper4 {
+  width: 93%;
+  height: 300px;
+  direction: rtl;
+  margin-bottom: 30px;
+}
+.card4 {
+  width: 189px;
+  height: 222px;
+  border: #ffffff;
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  direction: ltr;
+  margin-right: -5px;
+}
 
 
 
