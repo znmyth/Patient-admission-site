@@ -153,3 +153,60 @@ const swiper4 = new Swiper('.swiper4', {
   },
 
 });
+
+
+
+
+// modal login
+
+// جاوااسکریپت برای کنترل مدال
+// var modal = document.getElementById('myModal');
+// var btn = document.getElementById('myBtn');
+// var span = document.getElementsByClassName('close')[0];
+
+// // هنگامی که کاربر بر روی دکمه کلیک می‌کند، مدال نمایش داده شود
+// btn.onclick = function() {
+//   modal.style.display = 'block';
+// }
+
+// // هنگامی که کاربر بر روی دکمه (x) کلیک می‌کند، مدال بسته شود
+// span.onclick = function() {
+//   modal.style.display = 'none';
+// }
+
+// // هنگامی که کاربر در هر جایی خارج از مدال کلیک کند، مدال بسته شود
+// window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = 'none';
+//   }
+// }
+
+
+
+
+// JavaScript to control the modal
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
