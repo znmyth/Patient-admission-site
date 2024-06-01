@@ -43,3 +43,49 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
+
+
+
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  rtl: true,
+
+
+  slidesPerView: 1,
+  spaceBetween: -700,
+
+  breakpoints: {
+      767: {
+          slidesPerView: 2,
+      },
+      991: {
+          slidesPerView: 3,
+      },
+  },
+
+});
+
+
+const swiper1 = new Swiper('.swiper1', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  rtl: true,
+
+
+  slidesPerView: 1,
+  spaceBetween: -400,
+
+  breakpoints: {
+      767: {
+          slidesPerView: 2,
+      },
+      991: {
+          slidesPerView: 3,
+      },
+  },
+
+});
