@@ -7,6 +7,519 @@
 
 
 
+  .phone-input-container0 {
+    margin: 10px 0; /* فاصله بالا و پایین برای جدا کردن از سایر المان‌ها */
+  }
+  
+  .phone-input {
+    width: 75%; /* تنظیم عرض فیلد ورودی */
+    padding: 8px; /* فضای داخلی برای راحتی تایپ */
+    font-size: 16px; /* اندازه فونت مناسب برای خوانایی */
+    /* ... سایر استایل‌ها ... */
+    margin-top: 25%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+  }
+
+
+
+
+  .rectangle0 {
+    position: absolute;
+    width: 476px;
+    height: 354px;
+    top: 335px;
+    left: 482px;
+    background: #e7f1f2;
+    border: 1px solid #ffffff;
+    opacity: 0.55;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .group0 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 370px;
+    left: 911px;
+    background: url(./assets/images/553afac1-5c03-46f8-9ac8-7543b108e445.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
+  .ellipse0 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 0px;
+    left: 50%;
+    background: url(./assets/images/a918a5d3-d3ca-4798-846c-3eaaf35e4d30.png)
+      no-repeat center;
+    background-size: cover;
+    transform: translate(-50.77%, 0);
+    z-index: 11;
+    border-radius: 50%;
+  }
+  .logo0 {
+    position: absolute;
+    width: 49px;
+    height: 53px;
+    top: 10px;
+    left: 50%;
+    background: url(./assets/images/e1b1cceae2c64e69c472f03e566e178d0a1dac87.png)
+      no-repeat center;
+    background-size: cover;
+    transform: translate(-51.02%, 0);
+    z-index: 12;
+  }
+  .login-tab0 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 110px;
+    height: 26px;
+    top: 75px;
+    left: calc(50% - 55px);
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.879px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .input-message0 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 331px;
+    height: 18px;
+    top: 130px;
+    left: 50px;
+    color: #5a6061;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 13;
+    direction: rtl;
+  }
+  .rectangle-button0 {
+    position: absolute;
+    width: 238px;
+    height: 36px;
+    top: 531px;
+    left: 658px;
+    cursor: pointer;
+    background: #d4e5e7;
+    border: none;
+    z-index: 3;
+    border-radius: 3px 30px 30px 3px;
+  }
+  .example-text0 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 120px;
+    height: 21px;
+    top: 8px;
+    left: 56px;
+    color: #6a6a6a;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.703px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .rectangle-button-01 {
+    position: absolute;
+    width: 104px;
+    height: 36px;
+    top: 531px;
+    left: 544px;
+    cursor: pointer;
+    background: #d4e5e7;
+    border: none;
+    z-index: 5;
+    border-radius: 30px 3px 3px 30px;
+  }
+  .flag-iran0 {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    top: 155px;
+    left: 8px;
+    background: url(./assets/images/2fee635b-2db9-43c4-94d5-dd4f4008090c.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 6;
+    overflow: hidden;
+  }
+  .plus-098 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    height: 21px;
+    top: 130px;
+    left: 43px;
+    color: #4a5254;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.703px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .vector0 {
+    position: absolute;
+    width: 7.69%;
+    height: 13.89%;
+    top: 44.44%;
+    left: 8.65%;
+    background: url(./assets/images/9be3d5b4-e2a8-4772-9d66-b1b941eab706.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 10;
+  }
+  .rectangle-02 {
+    position: absolute;
+    width: 352px;
+    height: 45px;
+    top: 250px;
+    left: 50%;
+    cursor: pointer;
+    background: #32aec0;
+    border: none;
+    transform: translate(-50%, 0);
+    z-index: 4;
+    border-radius: 15px;
+  }
+  .send-verification-code0 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 21px;
+    top: 13px;
+    left: calc(50% - 45px);
+    color: #ffffff;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.703px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+
+
+
+
+
+
+  /* استایل‌های اصلی مدال */
+  .modal {
+    display: none; /* پنهان بودن به صورت پیش‌فرض */
+    position: fixed; /* ثابت بودن در جای خود */
+    z-index: 1500; /* قرار گرفتن روی دیگر المان‌ها */
+    left: 0;
+    top: 0;
+    width: 100%; /* عرض کامل */
+    height: 100%; /* ارتفاع کامل */
+    overflow: auto; /* فعال کردن اسکرول در صورت نیاز */
+    background-color: rgba(0,0,0,0.4); /* پس‌زمینه تیره با شفافیت */
+  }
+
+  /* استایل محتوای داخل مدال */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 10% auto; /* فاصله از بالا و مرکز */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* می‌تواند بیشتر یا کمتر باشد، بسته به اندازه صفحه */
+  }
+
+  /* استایل دکمه بستن */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* .mymodal {
+  display: none; 
+  position: fixed; 
+  z-index: 1500;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+
+  
+}
+
+.modal-content {
+  position: relative;
+  width: 476px;
+  height: 354px;
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; 
+} */
+
+/* .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+.rectangle01 {
+  position: relative;
+  width: 476px;
+  height: 354px;
+  top: 335px;
+  left: 482px;
+  background: #e7f1f2;
+  border: 1px solid #ffffff;
+  opacity: 0.55;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ellipse01 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 378px;
+  left: 50%;
+  background: url(./assets/images/a918a5d3-d3ca-4798-846c-3eaaf35e4d30.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-50.77%, 0);
+  z-index: 11;
+  border-radius: 50%;
+}
+.logo01 {
+  position: absolute;
+  width: 49px;
+  height: 53px;
+  top: 388px;
+  left: 50%;
+  background: url(./assets/images/e1b1cceae2c64e69c472f03e566e178d0a1dac87.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-51.02%, 0);
+  z-index: 12;
+}
+.login-tab01 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 110px;
+  height: 26px;
+  top: 456px;
+  left: calc(50% - 55px);
+  color: #5a6061;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.879px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 1;
+}
+.input-message01 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 331px;
+  height: 18px;
+  top: 496px;
+  left: 553px;
+  color: #5a6061;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 13;
+}
+.rectangle-button01 {
+  position: absolute;
+  width: 238px;
+  height: 36px;
+  top: 531px;
+  left: 658px;
+  cursor: pointer;
+  background: #d4e5e7;
+  border: none;
+  z-index: 3;
+  border-radius: 3px 30px 30px 3px;
+}
+.example-text01 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 120px;
+  height: 21px;
+  top: 8px;
+  left: 56px;
+  color: #6a6a6a;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.703px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 9;
+}
+.rectangle-button-101 {
+  position: absolute;
+  width: 104px;
+  height: 36px;
+  top: 531px;
+  left: 544px;
+  cursor: pointer;
+  background: #d4e5e7;
+  border: none;
+  z-index: 5;
+  border-radius: 30px 3px 3px 30px;
+}
+.flag-iran01 {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  top: 3px;
+  left: 22px;
+  background: url(./assets/images/2fee635b-2db9-43c4-94d5-dd4f4008090c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+  overflow: hidden;
+}
+.plus-9801 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 8px;
+  left: 59px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.703px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.vector01 {
+  position: absolute;
+  width: 7.69%;
+  height: 13.89%;
+  top: 44.44%;
+  left: 8.65%;
+  background: url(./assets/images/9be3d5b4-e2a8-4772-9d66-b1b941eab706.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 10;
+}
+.rectangle-201 {
+  position: absolute;
+  width: 352px;
+  height: 45px;
+  top: 591px;
+  left: 50%;
+  cursor: pointer;
+  background: #32aec0;
+  border: none;
+  transform: translate(-50%, 0);
+  z-index: 4;
+  border-radius: 15px;
+}
+.send-verification-code01 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 13px;
+  left: calc(50% - 45px);
+  color: #ffffff;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.703px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* استایل برای منوهای کشویی */
@@ -237,42 +750,51 @@ nav-item.dropdown {
 }
 
 
-/* modal login */
 
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1500; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
 
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
 
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -184,29 +184,75 @@ const swiper4 = new Swiper('.swiper4', {
 
 
 
-// JavaScript to control the modal
-// Get the modal
-var modal = document.getElementById("myModal");
+// // JavaScript to control the modal
+// // Get the modal
+// var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+// // Get the button that opens the modal
+// var btn = document.getElementById("myBtn");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+// // Get the <span> element that closes the modal
+// var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// // When the user clicks the button, open the modal 
+// btn.onclick = function() {
+//   modal.style.display = "block";
+// }
+
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function() {
+//   modal.style.display = "none";
+// }
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// }
+
+
+// دریافت المان مدال
+var modal = document.getElementById('myModal');
+
+// دریافت دکمه‌ای که باعث باز شدن مدال می‌شود
+var btn = document.getElementById('myBtn');
+
+// دریافت المان <span> که باعث بسته شدن مدال می‌شود
+var span = document.getElementsByClassName('close')[0];
+
+// وقتی کاربر روی دکمه کلیک می‌کند، مدال باز می‌شود
 btn.onclick = function() {
-  modal.style.display = "block";
+  modal.style.display = 'block';
 }
 
-// When the user clicks on <span> (x), close the modal
+// وقتی کاربر روی <span> (x) کلیک می‌کند، مدال بسته می‌شود
 span.onclick = function() {
-  modal.style.display = "none";
+  modal.style.display = 'none';
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// وقتی کاربر روی هر جایی خارج از مدال کلیک می‌کند، مدال بسته می‌شود
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
+    modal.style.display = 'none';
   }
 }
+
+
+var phoneRegex = /^\d{11}$/;
+var phoneNumber = document.getElementById('phone').value;
+
+if(phoneRegex.test(phoneNumber)) {
+  // شماره تلفن معتبر است
+} else {
+  // شماره تلفن نامعتبر است
+}
+
+document.getElementById('phone').addEventListener('input', function (e) {
+  var value = e.target.value;
+  var numericValue = value.replace(/[^\d]/g, ''); // حذف همه چیز به جز اعداد
+  if (numericValue.length > 11) {
+    numericValue = numericValue.slice(0, 11); // محدود کردن به ۱۱ رقم
+  }
+  e.target.value = numericValue; // به‌روزرسانی مقدار با اعداد فقط
+});
