@@ -6,9 +6,26 @@
   }
 
 
-
-
+  .title {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 13pt;
+    padding: 10px;
+  }
   
+  .active {
+    background-color: #32aec0; /* یا هر رنگ دیگری که می‌خواهید */
+    color: #ffffff;
+  }
+
+  .container015{
+    display: flex;
+    padding-left: 260px;
+    align-items: center;
+  }
 
 
 

@@ -256,3 +256,17 @@ document.getElementById('phone').addEventListener('input', function (e) {
   }
   e.target.value = numericValue; // به‌روزرسانی مقدار با اعداد فقط
 });
+
+
+
+
+// این تابع رنگ عنوانی که روی آن کلیک شده را تغییر می‌دهد
+function changeColor(element) {
+  // حذف کلاس 'active' از تمام عنوان‌ها
+  document.querySelectorAll('.title').forEach(function(el) {
+    el.classList.remove('active');
+  });
+
+  // افزودن کلاس 'active' به عنوانی که روی آن کلیک شده است
+  element.classList.add('active');
+}
