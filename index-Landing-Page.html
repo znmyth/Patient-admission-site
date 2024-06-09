@@ -16,8 +16,12 @@
 </head>
 
 <body>
-  <div class="main-container">
-    <nav class="rectangle">
+  <div class="main-container ">
+    <nav class="rectangle fixed top navbar-expand-lg bg-body-tertiary">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="logo-text">
         <!-- <a class="navbar-brand" href="#"><img src="logo.png" alt="لوگو"></a> -->
       </div>
@@ -28,8 +32,8 @@
         </span>
       </div>
       <span class="doctor-login">ورود پزشکان</span>
-      <span class="online-medical-consultation">مشاوره پزشکی آنلاین</span>
-      <span class="health-magazine">مجله سلامت</span>
+      <a href="#2"><span class="online-medical-consultation">مشاوره پزشکی آنلاین</span></a>
+      <a href="#5"><span class="health-magazine">مجله سلامت</span></a>
       <div class="nav-item dropdown">
         <span class="medical-centers" data-toggle="dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,6 +42,10 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">بیمارستان ابوعلی</a>
             <a class="dropdown-item" href="#">بیمارستان امام خمینی (ره)</a>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#4">بیشتر</a></li>
           </div>
         </span>
       </div>
@@ -55,12 +63,12 @@
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="#">بیشتر</a></li>
+            <li><a class="dropdown-item" href="#3">بیشتر</a></li>
           </ul>
         </span>
       </div>
-      <span class="appointment-booking">نوبت دهی</span>
-      <span class="services">خدمات</span>
+      <a href="#1"><span class="appointment-booking">نوبت دهی</span></a>
+      <a href="#6"><span class="services">خدمات</span></a>
     </nav>
 
     <!-- <nav class="rectangle">
@@ -219,47 +227,55 @@
         </div>
       </div>
 
+    
 
 
 
 
 
 
-
-
+      <a href="#6">
       <div class="rectangle-b">
         <div class="rectangle-c"></div>
         <div class="rectangle-d">
           <div class="vector-e"></div>
         </div>
         <span class="tabiyar-services">خدمات طب یار</span>
-      </div>
-      <div class="rectangle-f">
-        <div class="rectangle-10"></div>
-        <div class="rectangle-11">
-          <div class="vector-12"></div>
+      </div></a>
+      <a href="#2">
+        <div class="rectangle-f">
+          <div class="rectangle-10"></div>
+          <div class="rectangle-11">
+            <div class="vector-12"></div>
+          </div>
+          <span class="medical-consultation">مشاوره پزشکی</span>
         </div>
-        <span class="medical-consultation">مشاوره پزشکی</span>
-      </div>
+      </a>
+      <a href="#4">
       <div class="rectangle-13">
         <div class="rectangle-14"></div>
         <div class="rectangle-15">
           <div class="vector-16"></div>
         </div>
         <span class="clinic-medical-centers">کلینیک و مراکز درمانی</span>
-      </div>
+      </div></a>
+
+      <a href="/index-Doctor-Page.html">
       <div class="rectangle-17">
+
         <div class="rectangle-18">
           <span class="appointment-booking-19">نوبت دهی</span>
           <div class="vector-1a"></div>
         </div>
+
         <div class="rectangle-1b"></div>
       </div>
+      </a>
     </div>
-    <span class="popular-specialties">پر بازدید ترین تخصص ها</span>
+    <span class="popular-specialties" id="3">پر بازدید ترین تخصص ها</span>
     <div class="flex-row">
-      <span class="quick-select-appointment-best-medical">انتخاب سریع نوبت از میان بهترین های پزشکی</span><span
-        class="view-all-specialties">مشاهده همه تخصص ها</span>
+      <span class="quick-select-appointment-best-medical">انتخاب سریع نوبت از میان بهترین های پزشکی</span>
+      <a href="/index-Doctor-Page.html"><span class="view-all-specialties">مشاهده همه تخصص ها</span></a>
       <div class="vector-1c"></div>
     </div>
 
@@ -353,10 +369,10 @@
 
 
 
-    <span class="doctors-introduction">معرفی پزشکان</span>
+    <span class="doctors-introduction" id="1">معرفی پزشکان</span>
     <div class="flex-row-f">
-      <span class="online-booking">نوبت‌دهی اینترنتی و رایگان از پزشکان سراسر ایران</span><span
-        class="view-all-doctors">مشاهده همه پزشکان</span>
+      <span class="online-booking">نوبت‌دهی اینترنتی و رایگان از پزشکان سراسر ایران</span>
+      <a href="/index-Doctor-Page.html"><span class="view-all-doctors">مشاهده همه پزشکان</span></a>
       <div class="vector-2a"></div>
     </div>
 
@@ -374,7 +390,7 @@
               <span class="doctor-leila-soltani">دکتر لیلا سلطانی</span><span class="obstetrics-gynecology">تخصص زنان و
                 زایمان</span>
               <div class="rectangle-2c">
-                <span class="book-appointment">دریافت نوبت</span>
+                <a href="/index-Get-Doctor_page.html"><span class="book-appointment">دریافت نوبت</span></a>
               </div>
               <div class="ellipse"></div>
               <div class="vector-2d"></div>
@@ -399,7 +415,7 @@
               <span class="doctor-leila-soltani">دکتر لیلا سلطانی</span><span class="obstetrics-gynecology">تخصص زنان و
                 زایمان</span>
               <div class="rectangle-2c">
-                <span class="book-appointment">دریافت نوبت</span>
+                <a href="/index-Get-Doctor_page.html"><span class="book-appointment">دریافت نوبت</span></a>
               </div>
               <div class="ellipse"></div>
               <div class="vector-2d"></div>
@@ -424,17 +440,16 @@
               <span class="doctor-leila-soltani">دکتر لیلا سلطانی</span><span class="obstetrics-gynecology">تخصص زنان و
                 زایمان</span>
               <div class="rectangle-2c">
-                <span class="book-appointment">دریافت نوبت</span>
+                <a href="/index-Get-Doctor_page.html"><span class="book-appointment">دریافت نوبت</span></a>
               </div>
               <div class="ellipse"></div>
               <div class="vector-2d"></div>
               <span class="rating-4-2">4.2</span>
               <div class="vector-2e"></div>
               <div class="tehran-location">
-                <span class="tehran">تهران</span><span class="comma">، </span><span class="intersection">تقاطع بزرگراه
-                  آیت
-                  الله حکیم و بلوار...
-                </span>
+                <span class="tehran">تهران</span>
+                <span class="comma">، </span>
+                <span class="intersection">تقاطع بزرگراه آیت الله حکیم و بلوار...</span>
               </div>
               <span class="hour">1 ساعت</span><span class="average-waiting-time">میانگین زمان انتظار</span><span
                 class="appointment-date">شنبه 29 اردیبهشت - 17:00</span><span class="first-available-appointment">اولین
@@ -449,7 +464,7 @@
               <span class="doctor-leila-soltani">دکتر لیلا سلطانی</span><span class="obstetrics-gynecology">تخصص زنان و
                 زایمان</span>
               <div class="rectangle-2c">
-                <span class="book-appointment">دریافت نوبت</span>
+                <a href="/index-Get-Doctor_page.html"><span class="book-appointment">دریافت نوبت</span></a>
               </div>
               <div class="ellipse"></div>
               <div class="vector-2d"></div>
@@ -564,20 +579,21 @@
 
 
 
-    <div class="flex-row-e-60">
+    <div class="flex-row-e-60" id="2">
       <span class="online-medical-consultation-61">مشاوره پزشکی آنلاین</span>
       <div class="regroup">
         <div class="rectangle-62">
-          <span class="text-medical-consultation">مشاوره پزشکی متنی</span>
+          <a href="/index-Doctor-Page.html"><span class="text-medical-consultation">مشاوره پزشکی متنی</span></a>
         </div>
         <div class="rectangle-63">
-          <span class="phone-medical-consultation">مشاوره پزشکی تلفنی</span>
+          <a href="/index-Doctor-Page.html"><span class="phone-medical-consultation">مشاوره پزشکی تلفنی</span></a>
         </div>
       </div>
     </div>
     <div class="flex-row-ab">
       <span class="get-online-medical-consultation">دریافت مشاوره پزشکی آنلاین به صورت تلفنی و متنی از برترین متخصصان
-        ایران</span><span class="view-all-specialties-64">مشاهده همه تخصص ها</span>
+        ایران</span>
+        <a href="/index-Doctor-Page.html"><span class="view-all-specialties-64">مشاهده همه تخصص ها</span></a>
       <div class="vector-65"></div>
     </div>
 
@@ -677,10 +693,10 @@
 
 
 
-    <span class="clinic-and-treatment-centers">کلینیک و مراکز درمانی</span>
+    <span class="clinic-and-treatment-centers" id="4">کلینیک و مراکز درمانی</span>
     <div class="flex-row-d">
-      <span class="get-services-from-treatment-centers">دریافت خدمات از مراکز درمانی در سراسر کشور</span><span
-        class="view-all-centers">مشاهده همه مراکز</span>
+      <span class="get-services-from-treatment-centers">دریافت خدمات از مراکز درمانی در سراسر کشور</span>
+      <a href="https://www.google.com/"><span class="view-all-centers">مشاهده همه مراکز</span></a>
       <div class="vector-74"></div>
     </div>
     <div class="flex-row-d-75">
@@ -718,12 +734,12 @@
       </div>
     </div>
     <div class="flex-row-cb">
-      <span class="medical-services">خدمات طبیار </span>
+      <span class="medical-services" id="6">خدمات طبیار </span>
       <div class="hospital-plus-fill"></div>
     </div>
     <div class="flex-row-b">
-      <span class="view-all-services">مشاهده همه خدمات</span><span class="best-medical-services">خرید بهترین خدمات
-        پزشکی</span>
+      <a href="https://www.google.com/"><span class="view-all-services">مشاهده همه خدمات</span></a>
+        <span class="best-medical-services">خرید بهترین خدمات پزشکی</span>
       <div class="vector-8b"></div>
     </div>
     <div class="flex-row-adc">
@@ -737,7 +753,7 @@
         <span class="psychological-services-offer">خدمات روانشناسی را با قیمت مناسب در<br />پیشنهاد های ویژه طب یار
           انتخاب کنید.</span>
         <div class="rectangle-8f"></div>
-        <span class="view-all-services-90">مشاهده همه خدمات</span>
+        <a href="https://www.google.com/"><span class="view-all-services-90">مشاهده همه خدمات</span></a>
         <div class="vector-91"></div>
       </div>
       <div class="rectangle-92"></div>
@@ -747,7 +763,7 @@
         <span class="psychological-services-offer-95">خدمات روانشناسی را با قیمت مناسب در<br />پیشنهاد های ویژه طب یار
           انتخاب کنید.</span>
         <div class="rectangle-96"></div>
-        <span class="view-all-services-97">مشاهده همه خدمات</span>
+        <a href="https://www.google.com/"><span class="view-all-services-97">مشاهده همه خدمات</span></a>
         <div class="vector-98"></div>
       </div>
       <div class="rectangle-99"></div>
@@ -757,7 +773,7 @@
         <span class="psychological-services-offer-9c">خدمات روانشناسی را با قیمت مناسب در<br />پیشنهاد های ویژه طب یار
           انتخاب کنید.</span>
         <div class="rectangle-9d"></div>
-        <span class="view-all-services-9e">مشاهده همه خدمات</span>
+        <a href="https://www.google.com/"><span class="view-all-services-9e">مشاهده همه خدمات</span></a>
         <div class="vector-9f"></div>
       </div>
     </div>
@@ -771,8 +787,8 @@
 
     <span class="tabiyar-user-reviews">طبیار از نگاه کاربران</span>
     <div class="flex-row-e-a0">
-      <span class="view-all-reviews">مشاهده همه نظرات</span><span class="tabiyar-services-users">استفاده بیش از 15
-        میلیون کاربر از خدمات طب یار</span>
+      <a href="https://www.google.com/"><span class="view-all-reviews">مشاهده همه نظرات</span></a>
+      <span class="tabiyar-services-users">استفاده بیش از 15 میلیون کاربر از خدمات طب یار</span>
       <div class="vector-a1"></div>
     </div>
 
@@ -799,9 +815,9 @@
                 <div class="vector-a9"></div>
               </div>
               <span class="excellent-website">یه سایت کامله؛ هم نوبت پزشک میده و هم<br />مشاوره تلفنی هم پشتیبانی
-                عالی داره و بدون<br />نقصه، کارتون عالیه.</span>
+                عالی داره و بدون<br />نقصه، کارتون عالیه</span>
               <div class="line-aa"></div>
-              <span class="parham">پرهام</span><span class="text-84">8 فروردین 1403</span>
+              <span class="parham">زهرا</span><span class="text-84">1403/1/8</span>
             </div>
           </div>
         </div>
@@ -819,9 +835,9 @@
                 <div class="vector-a9"></div>
               </div>
               <span class="excellent-website">یه سایت کامله؛ هم نوبت پزشک میده و هم<br />مشاوره تلفنی هم پشتیبانی
-                عالی داره و بدون<br />نقصه، کارتون عالیه.</span>
+                عالی داره و بدون<br />نقصه، کارتون عالیه</span>
               <div class="line-aa"></div>
-              <span class="parham">پرهام</span><span class="text-84">8 فروردین 1403</span>
+              <span class="parham">مهتاب</span><span class="text-84">1403/1/8</span>
             </div>
           </div>
         </div>
@@ -839,9 +855,9 @@
                 <div class="vector-a9"></div>
               </div>
               <span class="excellent-website">یه سایت کامله؛ هم نوبت پزشک میده و هم<br />مشاوره تلفنی هم پشتیبانی
-                عالی داره و بدون<br />نقصه، کارتون عالیه.</span>
+                عالی داره و بدون<br />نقصه، کارتون عالیه</span>
               <div class="line-aa"></div>
-              <span class="parham">پرهام</span><span class="text-84">8 فروردین 1403</span>
+              <span class="parham">علی</span><span class="text-84">1403/1/8</span>
             </div>
           </div>
         </div>
@@ -859,9 +875,9 @@
                 <div class="vector-a9"></div>
               </div>
               <span class="excellent-website">یه سایت کامله؛ هم نوبت پزشک میده و هم<br />مشاوره تلفنی هم پشتیبانی
-                عالی داره و بدون<br />نقصه، کارتون عالیه.</span>
+                عالی داره و بدون<br />نقصه، کارتون عالیه</span>
               <div class="line-aa"></div>
-              <span class="parham">پرهام</span><span class="text-84">8 فروردین 1403</span>
+              <span class="parham">رضا</span><span class="text-84">1403/1/8</span>
             </div>
           </div>
         </div>
@@ -947,11 +963,10 @@
 
 
 
-    <span class="latest-articles">آخرین مطالب مجله‌ سلامت طب یار</span>
+    <span class="latest-articles" id="5">آخرین مطالب مجله‌ سلامت طب یار</span>
     <div class="flex-row-cea">
-      <span class="medical-articles">مقالات جدید و به روز در علم پزشکی</span><span class="view-all-articles">مشاهده
-        همه
-        مقالات</span>
+      <span class="medical-articles">مقالات جدید و به روز در علم پزشکی</span>
+      <a href="https://www.google.com/"><span class="view-all-articles">مشاهده همه مقالات</span></a>
       <div class="vector-cb"></div>
     </div>
     <div class="flex-row-d-cc">
@@ -995,16 +1010,16 @@
               <div class="control-anger"></div>
               <span class="line-d8">بررسی نشانه های اضطراب در <br />کودکان</span>
               <div class="rectangle-d9"></div>
-              <div class="vector-da">
+              <a href="https://www.google.com/"><div class="vector-da">
                 <div class="flex-row-df"></div>
                 <div class="rectangle-db">
                   <div class="vector-dc">
                     <div class="date-dd"></div>
                   </div>
-                  <span class="vector-de">27 اردیبهشت 1403</span>
+                  <span class="vector-de">1403/2/27</span>
                   <div class="rectangle-df"></div>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
@@ -1014,16 +1029,16 @@
               <div class="exercise-life-quality"></div>
               <span class="line-f5">نقش ورزش افزایش کیفیت زندگی</span>
               <div class="rectangle-f6"></div>
-              <div class="vector-f7">
+              <a href="https://www.google.com/"><div class="vector-f7">
                 <div class="flex-row-be"></div>
                 <div class="rectangle-f8">
                   <div class="vector-f9">
                     <div class="date-fa"></div>
                   </div>
-                  <span class="vector-fb">27 اردیبهشت 1403</span>
+                  <span class="vector-fb">1403/2/27</span>
                   <div class="rectangle-fc"></div>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
@@ -1033,16 +1048,16 @@
               <div class="breakfast-options"></div>
               <span class="line-e1">نقش والدین در کنترل خشم فرزندان</span>
               <div class="rectangle-e2"></div>
-              <div class="vector-e3">
+              <a href="https://www.google.com/"><div class="vector-e3">
                 <div class="flex-row-e4"></div>
                 <div class="rectangle-e5">
                   <div class="vector-e6">
                     <div class="date-e7"></div>
                   </div>
-                  <span class="vector-e8">27 اردیبهشت 1403</span>
+                  <span class="vector-e8">1403/2/27</span>
                   <div class="rectangle-e9"></div>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
@@ -1052,16 +1067,16 @@
               <div class="sports-quality-life"></div>
               <span class="line-eb">صبحانه چی بخورم؟</span>
               <div class="rectangle-ec"></div>
-              <div class="vector-ed">
+              <a href="https://www.google.com/"><div class="vector-ed">
                 <div class="flex-row-ee"></div>
                 <div class="rectangle-ef">
                   <div class="vector-f0">
                     <div class="date-f1"></div>
                   </div>
-                  <span class="vector-f2">27 اردیبهشت 1403</span>
+                  <span class="vector-f2">1403/2/27</span>
                   <div class="rectangle-f3"></div>
                 </div>
-              </div>
+              </div></a>  
             </div>
           </div>
         </div>
@@ -1071,16 +1086,16 @@
               <div class="exercise-life-quality"></div>
               <span class="line-f5">نقش ورزش افزایش کیفیت زندگی</span>
               <div class="rectangle-f6"></div>
-              <div class="vector-f7">
+              <a href="https://www.google.com/"><div class="vector-f7">
                 <div class="flex-row-be"></div>
                 <div class="rectangle-f8">
                   <div class="vector-f9">
                     <div class="date-fa"></div>
                   </div>
-                  <span class="vector-fb">27 اردیبهشت 1403</span>
+                  <span class="vector-fb">1403/2/27</span>
                   <div class="rectangle-fc"></div>
                 </div>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
@@ -1248,7 +1263,8 @@
           <div class="phone-input-container0">
             <div class="flag-iran0"></div>
             <span class="plus-098">+98</span>
-            <input type="tel" id="phone" name="phone" pattern="^\d{11}$" placeholder="مثال ×××××××912"  maxlength="11" minlength="11" class="phone-input" required>
+            <input type="tel" id="phone" name="phone" pattern="^\d{11}$" placeholder="مثال ×××××××912" maxlength="11"
+              minlength="11" class="phone-input" required>
           </div>
           <button class="rectangle-02">ارسال کد تأیید</button>
         </div>
