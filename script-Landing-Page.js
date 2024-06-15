@@ -270,3 +270,65 @@ function changeColor(element) {
   // افزودن کلاس 'active' به عنوانی که روی آن کلیک شده است
   element.classList.add('active');
 }
+
+
+
+
+
+
+// انتظار برای بارگذاری کامل DOM
+document.addEventListener('DOMContentLoaded', function() {
+  // یافتن تمام عناصر با کلاس 'dropdown-toggle00'
+  var dropdownToggles = document.querySelectorAll('.link00.dropdown-toggle00');
+
+  // اضافه کردن event listener به هر عنصر
+  dropdownToggles.forEach(function(toggle) {
+    toggle.addEventListener('click', function(event) {
+      // جلوگیری از عملکرد پیش‌فرض لینک
+      event.preventDefault();
+
+      // یافتن منوی کشویی مربوط به این عنصر
+      var dropdownMenu = this.closest('.dropdown00').querySelector('.dropdown-menu00');
+
+      // نمایش یا پنهان کردن منوی کشویی
+      if (dropdownMenu.style.display === 'block') {
+        dropdownMenu.style.display = 'none';
+      } else {
+        dropdownMenu.style.display = 'block';
+      }
+    });
+  });
+
+  // بستن منوهای کشویی هنگام کلیک بیرون از آن‌ها
+  window.addEventListener('click', function(event) {
+    if (!event.target.matches('.dropdown-toggle00')) {
+      var dropdownMenus = document.querySelectorAll('.dropdown-menu00');
+      dropdownMenus.forEach(function(menu) {
+        if (menu.style.display === 'block') {
+          menu.style.display = 'none';
+        }
+      });
+    }
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

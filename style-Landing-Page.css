@@ -767,10 +767,25 @@ nav-item.dropdown {
 
 
 .btn{
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
+  padding: 10px 20px;
+  width: 134px;
+  height: 40px;
+  top: 12px;
+  left: 74px;
+  background: #32aec0;
+  z-index: 6;
+  border-radius: 10px;
+  margin-top: -5px;
+}
+
+
+.rectangle-1 {
+  position: absolute;
+
 }
 
 
@@ -781,16 +796,79 @@ nav-item.dropdown {
 
 
 
+/* .rectangle-7 {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  top: 14px;
+  left: 618px;
+  background: #32aec0;
+  z-index: 12;
+  border-radius: 11px;
+} */
 
+/* استایل برای مستطیل انتخاب شهر */
+.rectangle-7 {
+  position: absolute;
+  width: 170px;
+  height: 43px;
+  top: 14px;
+  left: 618px;
+  background: #32aec0;
+  z-index: 12;
+  border-radius: 11px;
+}
 
+/* استایل برای منوهای کشویی با کلاس‌های جدید */
+.nav-item00.dropdown00 {
+  position: relative;
+  z-index: 1500;
+  
+}
 
+.link00.dropdown-toggle00 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  text-decoration: none;
+}
 
+.dropdown-menu00 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  margin-top: 50px;
+  left: 5px;
+  transform: translateX(0%);
+  background-color: #32aec0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1500;
+  
+}
 
+.dropdown-menu00 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 1500;
+}
 
+.dropdown-item00{
+  font-size: 16px;
+  direction: rtl;
+}
 
+.dropdown00:hover .dropdown-menu00 {
+  display: block;
+}
 
-
-
+.dropdown-menu00 a:hover {
+  background-color: #ddd;
+}
 
 
 
@@ -873,16 +951,7 @@ nav-item.dropdown {
     background-size: cover;
     z-index: 403;
   }
-  .rectangle-1 {
-    position: absolute;
-    width: 134px;
-    height: 40px;
-    top: 12px;
-    left: 74px;
-    background: #32aec0;
-    z-index: 6;
-    border-radius: 10px;
-  }
+
   .user-login {
     display: flex;
     align-items: flex-start;
@@ -1048,7 +1117,7 @@ nav-item.dropdown {
     width: 1440px;
     height: 763px;
     margin: 0 0 0 0;
-    z-index: 27;
+    z-index: 20;
   }
   .rectangle-3 {
     position: absolute;
@@ -1124,16 +1193,7 @@ nav-item.dropdown {
     background-size: 100% 100%;
     z-index: 11;
   }
-  .rectangle-7 {
-    position: absolute;
-    width: 170px;
-    height: 43px;
-    top: 14px;
-    left: 618px;
-    background: #32aec0;
-    z-index: 12;
-    border-radius: 11px;
-  }
+
   .vector-8 {
     position: absolute;
     width: 14.12%;
@@ -1200,7 +1260,7 @@ nav-item.dropdown {
     width: 546px;
     height: 71px;
     margin: 42px 0 0 450px;
-    z-index: 20;
+    z-index: 0;
   }
   .plus-city-village {
     flex-shrink: 0;
@@ -1308,6 +1368,7 @@ nav-item.dropdown {
     font-weight: 700;
     line-height: 36px;
     text-align: center;
+    z-index: 18;
   }
   .doctor {
     position: relative;
