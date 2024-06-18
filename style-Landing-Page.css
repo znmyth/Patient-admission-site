@@ -6251,6 +6251,7 @@ nav-item.dropdown {
     z-index: 348;
   }
   .tab-yar {
+    color: #ffffff;
     position: absolute;
     width: 486px;
     height: 191px;
@@ -6262,7 +6263,18 @@ nav-item.dropdown {
     line-height: 24.205px;
     text-align: right;
     z-index: 347;
+    direction: rtl;
+
+    overflow: hidden; /* اطمینان حاصل کنید که محتوا در صورت بیش از حد بودن، قابل رویت نیست */
+ 
+    text-overflow: ellipsis; /* اضافه کردن نقطه‌چین در انتهای متن */
+    
+    white-space: nowrap; /* جلوگیری از شکسته شدن خطوط */
+ 
   }
+
+
+
   .tab-yar-109 {
     position: relative;
     color: #ffffff;
@@ -6271,6 +6283,7 @@ nav-item.dropdown {
     font-weight: 400;
     line-height: 24.205px;
     text-align: right;
+    direction: rtl;
   }
   .empty {
     position: relative;
@@ -6374,6 +6387,7 @@ nav-item.dropdown {
     text-align: right;
     white-space: nowrap;
     z-index: 350;
+    direction: rtl;
   }
   .group {
     position: absolute;
@@ -6542,6 +6556,7 @@ nav-item.dropdown {
     text-align: right;
     white-space: nowrap;
     z-index: 343;
+    direction: rtl;
   }
   .vector-114 {
     position: absolute;
