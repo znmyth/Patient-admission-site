@@ -4,6 +4,168 @@
       "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
       "Source Han Sans CN", sans-serif;
   }
+
+
+
+
+  /* استایل‌های اصلی مدال */
+  .modal {
+    display: none; /* پنهان بودن به صورت پیش‌فرض */
+    position: fixed; /* ثابت بودن در جای خود */
+    z-index: 1500; /* قرار گرفتن روی دیگر المان‌ها */
+    left: 0;
+    top: 0;
+    width: 100%; /* عرض کامل */
+    height: 100%; /* ارتفاع کامل */
+    overflow: auto; /* فعال کردن اسکرول در صورت نیاز */
+    background-color: rgba(0,0,0,0.4); /* پس‌زمینه تیره با شفافیت */
+  }
+
+  /* استایل محتوای داخل مدال */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 10% auto; /* فاصله از بالا و مرکز */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* می‌تواند بیشتر یا کمتر باشد، بسته به اندازه صفحه */
+    height: 45%;
+  }
+
+  /* استایل دکمه بستن */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .success-message010 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 257px;
+    height: 28px;
+    top: 200px;
+    left: 100px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 10;
+    direction: rtl;
+  }
+  .tracking-code010 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 23px;
+    top: 240px;
+    left: 140px;
+    color: #156179;
+    font-family: Vazir FD-UI, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  
+#lottieContainer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+
+  top:-40px;
+  left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   .main-container {
     overflow: hidden;
@@ -137,8 +299,21 @@
       no-repeat center;
     background-size: cover;
     z-index: 9;
+
   }
   .line-3 {
+    position: absolute;
+    width: 303px;
+    height: 1px;
+    top: 7px;
+    left: 24.5px;
+    background: url(./assets/images/0be3be91-df88-4903-a491-10d924a7e1e5.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 10;
+
+  }
+  /* .line-3 {
     position: absolute;
     width: 303px;
     height: 1px;
@@ -148,7 +323,7 @@
       no-repeat center;
     background-size: cover;
     z-index: 10;
-  }
+  } */
   .flex-row-b {
     position: relative;
     width: 753px;
