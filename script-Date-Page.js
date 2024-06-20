@@ -51,3 +51,28 @@ window.onclick = function(event) {
       path: 'Animation - 1718889290212.json' // مسیر فایل JSON انیمیشن
     });
   });
+
+
+
+
+
+
+// تابع برای تغییر رنگ مستطیل هنگام کلیک
+function changeRectangleColor(element) {
+    // حذف کلاس 'clicked' از تمام مستطیل‌ها به جز المان فعلی
+    document.querySelectorAll('.clickable-rectangle.clicked').forEach(clickedElement => {
+      if (clickedElement !== element) {
+        clickedElement.classList.remove('clicked');
+      }
+    });
+  
+    // تغییر کلاس 'clicked' برای المان فعلی
+    element.classList.toggle('clicked');
+  }
+  
+  // اضافه کردن Event Listener به هر دکمه با کلاس 'clickable-rectangle'
+  document.querySelectorAll('.clickable-rectangle').forEach(button => {
+    button.addEventListener('click', function() {
+      changeRectangleColor(this);
+    });
+  });

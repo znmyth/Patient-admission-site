@@ -108,15 +108,94 @@
 
 
 
+/* استایل اولیه برای مستطیل‌ها */
+.button-rectangle {
+  /* سایر استایل‌ها */
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+
+/* استایل برای تغییر رنگ هنگام کلیک شدن */
+.button-rectangle.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
 
 
+.button-rectangle-16 {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.button-rectangle-16.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
 
+.button-rectangle-17 {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.button-rectangle-17.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
 
+.button-rectangle-18 {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.button-rectangle-18.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
 
+.rectangle-19 {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.rectangle-19.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
 
+.rectangle-1a {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.rectangle-1a.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
 
+.rectangle-1b {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.rectangle-1b.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
 
+.rectangle-1c {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.rectangle-1c.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
 
+.rectangle-1e  {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.rectangle-1e.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
+
+.rectangle-1f  {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.rectangle-1f.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
+
+.rectangle-20  {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.rectangle-20.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
+
+.rectangle-21   {
+  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+}
+.rectangle-21.clicked {
+  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+}
 
 
 
@@ -1192,7 +1271,7 @@
     position: absolute;
     width: 54px;
     height: 19px;
-    top: 7px;
+    top: 8px;
     left: 50px;
     color: #666666;
     font-family: Vazir FD-UI, var(--default-font-family);
@@ -1210,7 +1289,7 @@
     top: 0;
     left: 486px;
     cursor: pointer;
-    background: #69d467;
+    background: #ffffff;
     border: 2px solid #69d467;
     z-index: 34;
     border-radius: 5px;
@@ -1222,7 +1301,7 @@
     position: absolute;
     width: 48px;
     height: 21px;
-    top: 5px;
+    top: 8px;
     left: 52px;
     color: #ffffff;
     font-family: Vazir FD-UI, var(--default-font-family);
