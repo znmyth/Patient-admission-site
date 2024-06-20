@@ -343,9 +343,96 @@ function expandText() {
 
 
 
+// دریافت المان مدال ورود شماره تلفن
+var phoneModal = document.getElementById('myModal');
+
+// دریافت المان مدال OTP
+var otpModal = document.getElementById('otpModal');
+
+// دریافت دکمه‌ای که باعث باز شدن مدال OTP می‌شود
+var btn = document.getElementById('myybtn');
+
+// دریافت المان <span> که باعث بسته شدن مدال‌ها می‌شود
+var spans = document.getElementsByClassName('close');
+
+// وقتی کاربر روی دکمه کلیک می‌کند، مدال OTP باز می‌شود
+btn.onclick = function() {
+  otpModal.style.display = 'block';
+  phoneModal.style.display = 'none'; // مخفی کردن مدال ورود شماره تلفن
+}
+
+// تابع برای بستن مدال‌ها
+function closeModal(modal) {
+  modal.style.display = 'none';
+}
+
+// اضافه کردن رویداد کلیک به هر <span> برای بستن مدال‌ها
+for (var i = 0; i < spans.length; i++) {
+  spans[i].onclick = function() {
+    closeModal(this.parentElement.parentElement);
+  }
+}
+
+// وقتی کاربر روی هر جایی خارج از مدال‌ها کلیک می‌کند، مدال‌ها بسته می‌شوند
+window.onclick = function(event) {
+  if (event.target.classList.contains('modal')) {
+    closeModal(event.target);
+  }
+}
 
 
 
 
 
+
+
+
+
+
+  // این تابع به صورت خودکار فوکوس را به المان بعدی منتقل می‌کند
+  function moveToNextElement(event) {
+    var target = event.target;
+    if(target.value.length >= target.maxLength) {
+      var nextElement = target.nextElementSibling;
+      if(nextElement && nextElement.children[0]) {
+        nextElement.children[0].focus();
+      }
+    }
+  }
+
+  // اضافه کردن event listener به هر input
+  var inputs = document.querySelectorAll('input[type="text"]');
+  inputs.forEach(function(input) {
+    input.addEventListener('input', moveToNextElement); // تغییر از keyup به input
+    // اضافه کردن event listener برای جلوگیری از ورود غیر عددی
+    input.addEventListener('keypress', function(e) {
+      var char = String.fromCharCode(e.which);
+      if (!(/[0-9]/.test(char))) {
+        e.preventDefault();
+      }
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+  // این تابع مدال فعلی را می‌بندد و مدال جدید را باز می‌کند
+function switchModal() {
+  // بستن مدال فعلی
+  document.getElementById('otpModal').style.display = 'none';
+
+  // باز کردن مدال جدید
+  document.getElementById('myModal').style.display = 'block';
+}
+
+// اضافه کردن event listener به div با کلاس edit-number000
+document.querySelector('.edit-number000').addEventListener('click', switchModal);
 
