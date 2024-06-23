@@ -33,4 +33,24 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+
+
+
+  
+
+function expandText() {
+  var dots = document.querySelector('.tab-yar');
+  var moreText = document.getElementById("more-text");
+
+  if (dots.style.overflow === "hidden") {
+    dots.style.overflow = "visible";
+    dots.style.whiteSpace = "normal";
+    moreText.style.display = "inline";
+  } else {
+    dots.style.overflow = "hidden";
+    dots.style.whiteSpace = "nowrap";
+    moreText.style.display = "none";
+  }
+}
   
