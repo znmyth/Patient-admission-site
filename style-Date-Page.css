@@ -1,97 +1,107 @@
 :root {
-    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-  }
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
 
 
 
 
-  /* استایل‌های اصلی مدال */
-  .modal {
-    display: none; /* پنهان بودن به صورت پیش‌فرض */
-    position: fixed; /* ثابت بودن در جای خود */
-    z-index: 1500; /* قرار گرفتن روی دیگر المان‌ها */
-    left: 0;
-    top: 0;
-    width: 100%; /* عرض کامل */
-    height: 100%; /* ارتفاع کامل */
-    overflow: auto; /* فعال کردن اسکرول در صورت نیاز */
-    background-color: rgba(0,0,0,0.4); /* پس‌زمینه تیره با شفافیت */
-  }
+/* استایل‌های اصلی مدال */
+.modal {
+  display: none;
+  /* پنهان بودن به صورت پیش‌فرض */
+  position: fixed;
+  /* ثابت بودن در جای خود */
+  z-index: 1500;
+  /* قرار گرفتن روی دیگر المان‌ها */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* عرض کامل */
+  height: 100%;
+  /* ارتفاع کامل */
+  overflow: auto;
+  /* فعال کردن اسکرول در صورت نیاز */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* پس‌زمینه تیره با شفافیت */
+}
 
-  /* استایل محتوای داخل مدال */
-  .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: 10% auto; /* فاصله از بالا و مرکز */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 30%; /* می‌تواند بیشتر یا کمتر باشد، بسته به اندازه صفحه */
-    height: 45%;
-  }
+/* استایل محتوای داخل مدال */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 10% auto;
+  /* فاصله از بالا و مرکز */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  /* می‌تواند بیشتر یا کمتر باشد، بسته به اندازه صفحه */
+  height: 45%;
+}
 
-  /* استایل دکمه بستن */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
+/* استایل دکمه بستن */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
-  .success-message010 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 257px;
-    height: 28px;
-    top: 200px;
-    left: 100px;
-    color: #156179;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 10;
-    direction: rtl;
-  }
-  .tracking-code010 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 23px;
-    top: 240px;
-    left: 140px;
-    color: #156179;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 10;
-  }
-  
-#lottieContainer{
+.success-message010 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 257px;
+  height: 28px;
+  top: 200px;
+  left: 100px;
+  color: #156179;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 10;
+  direction: rtl;
+}
+
+.tracking-code010 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 240px;
+  left: 140px;
+  color: #156179;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+#lottieContainer {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
 
-  top:-40px;
+  top: -40px;
   left: 70px;
 }
 
@@ -111,90 +121,125 @@
 /* استایل اولیه برای مستطیل‌ها */
 .button-rectangle {
   /* سایر استایل‌ها */
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
 
 /* استایل برای تغییر رنگ هنگام کلیک شدن */
 .button-rectangle.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
 
 .button-rectangle-16 {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .button-rectangle-16.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
 .button-rectangle-17 {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .button-rectangle-17.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
 .button-rectangle-18 {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .button-rectangle-18.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
 .rectangle-19 {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .rectangle-19.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
 .rectangle-1a {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .rectangle-1a.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
 .rectangle-1b {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .rectangle-1b.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
 .rectangle-1c {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .rectangle-1c.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
-.rectangle-1e  {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+.rectangle-1e {
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .rectangle-1e.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
-.rectangle-1f  {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+.rectangle-1f {
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .rectangle-1f.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
-.rectangle-20  {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+.rectangle-20 {
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .rectangle-20.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
-.rectangle-21   {
-  transition: background-color 0.3s; /* افزودن انیمیشن تغییر رنگ */
+.rectangle-21 {
+  transition: background-color 0.3s;
+  /* افزودن انیمیشن تغییر رنگ */
 }
+
 .rectangle-21.clicked {
-  background-color: #69d467; /* رنگ دلخواه پس از کلیک */
+  background-color: #69d467;
+  /* رنگ دلخواه پس از کلیک */
 }
 
 
@@ -245,154 +290,159 @@
 
 
 
-  
-  .main-container {
-    overflow: hidden;
-  }
-  
-  .main-container,
-  .main-container * {
-    box-sizing: border-box;
-  }
-  
-  input,
-  select,
-  textarea,
-  button {
-    outline: 0;
-  }
-  
-  .main-container {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-    margin: 0 auto;
-    background: #32aec0;
-    overflow: hidden;
-  }
-  .rectangle {
-    position: relative;
-    width: 1440px;
-    height: 195px;
-    margin: 0 0 0 0;
-    background: #ffffff;
-    overflow: visible auto;
-  }
-  .flex-row-ea {
-    position: relative;
-    width: 665px;
-    height: 86px;
-    margin: 20px 0 0 681px;
-    z-index: 82;
-  }
-  .logo-tabiar {
-    position: absolute;
-    width: 81px;
-    height: 86px;
-    top: 0;
-    left: 0;
-    background: url(./assets/images/e1b1cceae2c64e69c472f03e566e178d0a1dac87.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 82;
-  }
-  .back {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 106px;
-    height: 27px;
-    top: 19px;
-    left: 533px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 1;
-  }
-  .vector {
-    position: absolute;
-    width: 1.95%;
-    height: 24.42%;
-    top: 27.91%;
-    left: 98.05%;
-    background: url(./assets/images/d2a0d174-cb6e-4f61-9068-fade5db37972.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 5;
-  }
-  .flex-row-e {
-    position: relative;
-    width: 697px;
-    height: 16px;
-    margin: 10px 0 0 371px;
-    z-index: 10;
-  }
-  .ellipse {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 0;
-    background: url(./assets/images/4aa100ce-376e-472b-a925-adf51b24c00f.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 8;
-    border-radius: 50%;
-  }
-  .ellipse-1 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 339px;
-    background: url(./assets/images/e3ba0844-cdff-43e2-bea0-7de8c4486003.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 7;
-    border-radius: 50%;
-  }
-  .ellipse-2 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 681px;
-    background: url(./assets/images/2d842484-f624-45a7-a287-c2ed716226f7.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 6;
-    border-radius: 50%;
-  }
-  .line {
-    position: absolute;
-    width: 303px;
-    height: 1px;
-    top: 7px;
-    left: 366.5px;
-    background: url(./assets/images/0be3be91-df88-4903-a491-10d924a7e1e5.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 9;
 
-  }
-  .line-3 {
-    position: absolute;
-    width: 303px;
-    height: 1px;
-    top: 7px;
-    left: 24.5px;
-    background: url(./assets/images/0be3be91-df88-4903-a491-10d924a7e1e5.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 10;
+.main-container {
+  overflow: hidden;
+}
 
-  }
-  /* .line-3 {
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #32aec0;
+  overflow: hidden;
+}
+
+.rectangle {
+  position: relative;
+  width: 1440px;
+  height: 195px;
+  margin: 0 0 0 0;
+  background: #ffffff;
+  overflow: visible auto;
+}
+
+.flex-row-ea {
+  position: relative;
+  width: 665px;
+  height: 86px;
+  margin: 20px 0 0 681px;
+  z-index: 82;
+}
+
+.logo-tabiar {
+  position: absolute;
+  width: 81px;
+  height: 86px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/e1b1cceae2c64e69c472f03e566e178d0a1dac87.png) no-repeat center;
+  background-size: cover;
+  z-index: 82;
+}
+
+.back {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 106px;
+  height: 27px;
+  top: 19px;
+  left: 533px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.vector {
+  position: absolute;
+  width: 1.95%;
+  height: 24.42%;
+  top: 27.91%;
+  left: 98.05%;
+  background: url(./assets/images/d2a0d174-cb6e-4f61-9068-fade5db37972.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+
+.flex-row-e {
+  position: relative;
+  width: 697px;
+  height: 16px;
+  margin: 10px 0 0 371px;
+  z-index: 10;
+}
+
+.ellipse {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/4aa100ce-376e-472b-a925-adf51b24c00f.png) no-repeat center;
+  background-size: cover;
+  z-index: 8;
+  border-radius: 50%;
+}
+
+.ellipse-1 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 339px;
+  background: url(./assets/images/e3ba0844-cdff-43e2-bea0-7de8c4486003.png) no-repeat center;
+  background-size: cover;
+  z-index: 7;
+  border-radius: 50%;
+}
+
+.ellipse-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 681px;
+  background: url(./assets/images/2d842484-f624-45a7-a287-c2ed716226f7.png) no-repeat center;
+  background-size: cover;
+  z-index: 6;
+  border-radius: 50%;
+}
+
+.line {
+  position: absolute;
+  width: 303px;
+  height: 1px;
+  top: 7px;
+  left: 366.5px;
+  background: url(./assets/images/0be3be91-df88-4903-a491-10d924a7e1e5.png) no-repeat center;
+  background-size: cover;
+  z-index: 9;
+
+}
+
+.line-3 {
+  position: absolute;
+  width: 303px;
+  height: 1px;
+  top: 7px;
+  left: 24.5px;
+  background: url(./assets/images/0be3be91-df88-4903-a491-10d924a7e1e5.png) no-repeat center;
+  background-size: cover;
+  z-index: 10;
+
+}
+
+/* .line-3 {
     position: absolute;
     width: 303px;
     height: 1px;
@@ -403,1167 +453,1389 @@
     background-size: cover;
     z-index: 10;
   } */
-  .flex-row-b {
-    position: relative;
-    width: 753px;
-    height: 27px;
-    margin: 9px 0 0 353px;
-    z-index: 4;
-  }
-  .review {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 52px;
-    height: 27px;
-    top: 0;
-    left: 0;
-    color: #808080;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23.291px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 4;
-  }
-  .user-info {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 102px;
-    height: 27px;
-    top: 0;
-    left: 314px;
-    color: #808080;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23.291px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 3;
-  }
-  .select-time {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 92px;
-    height: 27px;
-    top: 0;
-    left: 661px;
-    color: #42a9b0;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23.291px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 2;
-  }
-  .flex-row {
-    position: relative;
-    width: 1266px;
-    height: 428px;
-    margin: 51px 0 0 79px;
-    z-index: 12;
-  }
-  .rectangle-4 {
-    position: absolute;
-    width: 417px;
-    height: 310px;
-    top: 0;
-    left: 0;
-    background: #ffffff;
-    z-index: 11;
-    border-radius: 15px;
-  }
-  .flex-row-eb {
-    position: relative;
-    width: 101px;
-    height: 101px;
-    margin: 21px 0 0 158px;
-    z-index: 81;
-    overflow: visible auto;
-  }
-  .vector-5 {
-    position: relative;
-    width: 53px;
-    height: 57px;
-    margin: 22px 0 0 24px;
-    background: url(./assets/images/755701d7-0d93-4df3-9159-51eed0295263.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 81;
-  }
-  .ellipse-6 {
-    position: absolute;
-    width: 101px;
-    height: 101px;
-    top: 0;
-    left: 0;
-    background: url(./assets/images/e47bd089-dc76-4670-9444-37f35471c5f2.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 80;
-    border-radius: 50%;
-  }
-  .dr-mohammad-abdoli {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 194px;
-    height: 26px;
-    margin: 16px 0 0 119px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 900;
-    line-height: 25.879px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 16;
-  }
-  .endocrine-specialist {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 244px;
-    height: 21px;
-    margin: 5px 0 0 94px;
-    color: #6a6a6a;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.703px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 17;
-  }
-  .flex-row-a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    width: 375px;
-    height: 18px;
-    margin: 24px 0 0 21px;
-    z-index: 19;
-  }
-  .time-info {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    flex-shrink: 0;
-    position: relative;
-    width: 112px;
-    height: 18px;
-    color: #6a6a6a;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 19;
-  }
-  .payment-method {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    flex-shrink: 0;
-    position: relative;
-    width: 86px;
-    height: 18px;
-    color: #6a6a6a;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 18;
-  }
-  .rectangle-7 {
-    position: relative;
-    width: 375px;
-    height: 49px;
-    margin: 8px 0 0 21px;
-    cursor: pointer;
-    background: #156179;
-    border: none;
-    z-index: 15;
-    border-radius: 10px;
-  }
-  .continue-btn {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 47px;
-    height: 31px;
-    top: 10px;
-    left: 172px;
-    color: #ffffff;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 31px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 15;
-  }
-  .rectangle-8 {
-    position: absolute;
-    width: 823px;
-    height: 424px;
-    top: 4px;
-    left: 443px;
-    background: #ffffff;
-    z-index: 12;
-    border-radius: 15px;
-  }
-  .flex-row-dcac {
-    position: relative;
-    width: 687px;
-    height: 29px;
-    margin: 22px 0 0 69px;
-    z-index: 26;
-  }
-  .khordad-1403 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 98px;
-    height: 28px;
-    top: 0;
-    left: 299px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 28px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 25;
-  }
-  .next-month {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 62px;
-    height: 28px;
-    top: 1px;
-    left: 22px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 28px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 24;
-  }
-  .previous-month {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 66px;
-    height: 28px;
-    top: 1px;
-    left: 599px;
-    color: #808080;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 28px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 26;
-  }
-  .vector-9 {
-    position: absolute;
-    width: 1.6%;
-    height: 55.17%;
-    top: 31.03%;
-    left: 98.4%;
-    background: url(./assets/images/5472e48e-862b-4e8d-bf6e-b61b1f1eaac5.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 23;
-  }
-  .vector-a {
-    position: absolute;
-    width: 1.6%;
-    height: 55.17%;
-    top: 31.03%;
-    left: 0;
-    background: url(./assets/images/2654c0fa-c9d9-46e4-be98-d27844683f90.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 20;
-  }
-  .rectangle-b {
-    position: relative;
-    width: 21px;
-    height: 20px;
-    margin: 10px 0 0 747px;
-    background: url(./assets/images/29eb0e31-4b6f-4b58-b18a-f0b83fe2fcbf.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 46;
-  }
-  .rectangle-c {
-    position: relative;
-    width: 823px;
-    height: 130px;
-    margin: -5px 0 0 0;
-    background: #d4e5e7;
-    z-index: 13;
-  }
-  .rectangle-d {
-    position: absolute;
-    width: 81px;
-    height: 78px;
-    top: 26px;
-    left: 547px;
-    font-size: 0px;
-    background: #ffffff;
-    z-index: 32;
-    border-radius: 10px;
-  }
-  .text-d {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 46px;
-    height: 21px;
-    margin: 7px 0 0 18px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.703px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 48;
-  }
-  .text-e {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 9px;
-    height: 23px;
-    margin: 2px 0 0 37px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 55;
-  }
-  .text-f {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 52px;
-    height: 13px;
-    margin: 6px 0 0 17px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 12.939px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 62;
-  }
-  .rectangle-e {
-    position: absolute;
-    width: 80px;
-    height: 78px;
-    top: 26px;
-    left: 109px;
-    font-size: 0px;
-    background: #ffffff;
-    z-index: 27;
-    border-radius: 10px;
-  }
-  .text-10 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 37px;
-    height: 21px;
-    margin: 7px 0 0 22px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.703px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 53;
-  }
-  .text-11 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 12px;
-    height: 23px;
-    margin: 3px 0 0 33px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 60;
-  }
-  .text-12 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 48px;
-    height: 13px;
-    margin: 5px 0 0 15px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 12.939px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 79;
-  }
-  .rectangle-f {
-    position: absolute;
-    width: 80px;
-    height: 78px;
-    top: 26px;
-    left: 197px;
-    font-size: 0px;
-    background: #ffffff;
-    z-index: 28;
-    border-radius: 10px;
-  }
-  .text-13 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 57px;
-    height: 21px;
-    margin: 7px 0 0 12px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.703px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 52;
-  }
-  .text-14 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 14px;
-    height: 23px;
-    margin: 3px 0 0 32px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 59;
-  }
-  .text-15 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 52px;
-    height: 13px;
-    margin: 5px 0 0 16px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 12.939px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 78;
-  }
-  .rectangle-10 {
-    position: absolute;
-    width: 80px;
-    height: 78px;
-    top: 26px;
-    left: 372px;
-    font-size: 0px;
-    background: #ffffff;
-    z-index: 30;
-    border-radius: 10px;
-  }
-  .text-16 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 56px;
-    height: 21px;
-    margin: 7px 0 0 13px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.703px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 50;
-  }
-  .text-17 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 11px;
-    height: 23px;
-    margin: 3px 0 0 36px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 57;
-  }
-  .text-18 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 53px;
-    height: 13px;
-    margin: 5px 0 0 16px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 12.939px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 76;
-  }
-  .rectangle-11 {
-    position: absolute;
-    width: 80px;
-    height: 78px;
-    top: 26px;
-    left: 636px;
-    font-size: 0px;
-    background: #156179;
-    z-index: 33;
-    border-radius: 10px;
-  }
-  .text-19 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 31px;
-    height: 21px;
-    margin: 4px 0 0 25px;
-    color: #ffffff;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.703px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 47;
-  }
-  .text-1a {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 11px;
-    height: 23px;
-    margin: 5px 0 0 34px;
-    color: #ffffff;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 54;
-  }
-  .empty-slot {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 53px;
-    height: 13px;
-    margin: 3px 0 0 15px;
-    color: #ffffff;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 12.939px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 61;
-  }
-  .rectangle-12 {
-    position: absolute;
-    width: 79px;
-    height: 78px;
-    top: 26px;
-    left: 285px;
-    font-size: 0px;
-    background: #ffffff;
-    z-index: 29;
-    border-radius: 10px;
-  }
-  .span-fourth-day {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 64px;
-    height: 21px;
-    margin: 7px 0 0 8px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.703px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 51;
-  }
-  .span-number-9 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 10px;
-    height: 23px;
-    margin: 3px 0 0 34px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 58;
-  }
-  .span-empty-2 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 49px;
-    height: 13px;
-    margin: 5px 0 0 19px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 12.939px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 77;
-  }
-  .rectangle-13 {
-    position: absolute;
-    width: 79px;
-    height: 78px;
-    top: 26px;
-    left: 460px;
-    font-size: 0px;
-    background: #ffffff;
-    z-index: 31;
-    border-radius: 10px;
-  }
-  .span-second-day {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 46px;
-    height: 21px;
-    margin: 7px 0 0 17px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.703px;
-    text-align: center;
-    white-space: nowrap;
-    z-index: 49;
-  }
-  .span-number-7 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 11px;
-    height: 23px;
-    margin: 3px 0 0 34px;
-    color: #4a5254;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 56;
-  }
-  .span-empty-10 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    width: 52px;
-    height: 13px;
-    margin: 5px 0 0 16px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 12.939px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 75;
-  }
-  .vector-14 {
-    position: absolute;
-    width: 3.4%;
-    height: 31.54%;
-    top: 33.85%;
-    left: 88.46%;
-    background: url(./assets/images/eb4500a1-1369-4d7e-8c3c-6ca7409bcea8.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 22;
-  }
-  .vector-15 {
-    position: absolute;
-    width: 3.4%;
-    height: 31.54%;
-    top: 33.85%;
-    left: 8.38%;
-    background: url(./assets/images/a6600c89-b9f5-4b3d-9e14-0892dfde09d9.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 21;
-  }
-  .flex-row-bc {
-    position: relative;
-    width: 643px;
-    height: 40px;
-    margin: 23px 0 0 91px;
-    z-index: 43;
-  }
-  .button-rectangle {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 43;
-    border-radius: 5px;
-  }
-  .span-time-18-00 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 57px;
-    height: 19px;
-    top: 7px;
-    left: 48px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 19px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 72;
-  }
-  .button-rectangle-16 {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 162px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 40;
-    border-radius: 5px;
-  }
-  .span-time-17-45 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 52px;
-    height: 21px;
-    top: 7px;
-    left: 51px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 69;
-  }
-  .button-rectangle-17 {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 324px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 37;
-    border-radius: 5px;
-  }
-  .span-time-17-30 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 54px;
-    height: 19px;
-    top: 8px;
-    left: 50px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 19px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 66;
-  }
-  .button-rectangle-18 {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 486px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 34;
-    border-radius: 5px;
-  }
-  .span-time-17-15 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 48px;
-    height: 21px;
-    top: 8px;
-    left: 52px;
-    color: #ffffff;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 63;
-  }
-  .flex-row-ddf {
-    position: relative;
-    width: 643px;
-    height: 40px;
-    margin: 6px 0 0 91px;
-    z-index: 44;
-  }
-  .rectangle-19 {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 44;
-    border-radius: 5px;
-  }
-  .time-19-00 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 57px;
-    height: 20px;
-    top: 7px;
-    left: 48px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 73;
-  }
-  .rectangle-1a {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 162px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 41;
-    border-radius: 5px;
-  }
-  .time-18-45 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 56px;
-    height: 20px;
-    top: 7px;
-    left: 49px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 70;
-  }
-  .rectangle-1b {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 324px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 38;
-    border-radius: 5px;
-  }
-  .time-18-30 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 54px;
-    height: 19px;
-    top: 7px;
-    left: 50px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 19px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 67;
-  }
-  .rectangle-1c {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 486px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 35;
-    border-radius: 5px;
-  }
-  .time-18-15 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 50px;
-    height: 21px;
-    top: 7px;
-    left: 51px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 64;
-  }
-  .flex-row-1d {
-    position: relative;
-    width: 643px;
-    height: 40px;
-    margin: 6px 0 0 91px;
-    z-index: 45;
-  }
-  .rectangle-1e {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 45;
-    border-radius: 5px;
-  }
-  .time-20-00 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 57px;
-    height: 21px;
-    top: 7px;
-    left: 48px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 74;
-  }
-  .rectangle-1f {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 162px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 42;
-    border-radius: 5px;
-  }
-  .time-19-45 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 54px;
-    height: 21px;
-    top: 7px;
-    left: 50px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 71;
-  }
-  .rectangle-20 {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 324px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 39;
-    border-radius: 5px;
-  }
-  .time-19-30 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 54px;
-    height: 21px;
-    top: 7px;
-    left: 50px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 68;
-  }
-  .rectangle-21 {
-    position: absolute;
-    width: 157px;
-    height: 40px;
-    top: 0;
-    left: 486px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 2px solid #69d467;
-    z-index: 36;
-    border-radius: 5px;
-  }
-  .time-19-15 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    width: 50px;
-    height: 19px;
-    top: 7px;
-    left: 51px;
-    color: #666666;
-    font-family: Vazir FD-UI, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 19px;
-    text-align: right;
-    white-space: nowrap;
-    z-index: 65;
-  }
-  
+.flex-row-b {
+  position: relative;
+  width: 753px;
+  height: 27px;
+  margin: 9px 0 0 353px;
+  z-index: 4;
+}
+
+.review {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 52px;
+  height: 27px;
+  top: 0;
+  left: 0;
+  color: #808080;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.291px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 4;
+}
+
+.user-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 102px;
+  height: 27px;
+  top: 0;
+  left: 314px;
+  color: #808080;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.291px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.select-time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  top: 0;
+  left: 661px;
+  color: #42a9b0;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.291px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.flex-row {
+  position: relative;
+  width: 1266px;
+  height: 428px;
+  margin: 51px 0 0 79px;
+  z-index: 12;
+}
+
+.rectangle-4 {
+  position: absolute;
+  width: 417px;
+  height: 310px;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 11;
+  border-radius: 15px;
+}
+
+.flex-row-eb {
+  position: relative;
+  width: 101px;
+  height: 101px;
+  margin: 21px 0 0 158px;
+  z-index: 81;
+  overflow: visible auto;
+}
+
+.vector-5 {
+  position: relative;
+  width: 53px;
+  height: 57px;
+  margin: 22px 0 0 24px;
+  background: url(./assets/images/755701d7-0d93-4df3-9159-51eed0295263.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 81;
+}
+
+.ellipse-6 {
+  position: absolute;
+  width: 101px;
+  height: 101px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/e47bd089-dc76-4670-9444-37f35471c5f2.png) no-repeat center;
+  background-size: cover;
+  z-index: 80;
+  border-radius: 50%;
+}
+
+.dr-mohammad-abdoli {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 194px;
+  height: 26px;
+  margin: 16px 0 0 119px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 25.879px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 16;
+}
+
+.endocrine-specialist {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 244px;
+  height: 21px;
+  margin: 5px 0 0 94px;
+  color: #6a6a6a;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.703px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 17;
+}
+
+.flex-row-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 375px;
+  height: 18px;
+  margin: 24px 0 0 21px;
+  z-index: 19;
+}
+
+.time-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+  width: 112px;
+  height: 18px;
+  color: #6a6a6a;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 19;
+}
+
+.payment-method {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+  width: 86px;
+  height: 18px;
+  color: #6a6a6a;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 18;
+}
+
+.rectangle-7 {
+  position: relative;
+  width: 375px;
+  height: 49px;
+  margin: 8px 0 0 21px;
+  cursor: pointer;
+  background: #156179;
+  border: none;
+  z-index: 15;
+  border-radius: 10px;
+}
+
+.continue-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 47px;
+  height: 31px;
+  top: 10px;
+  left: 172px;
+  color: #ffffff;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 15;
+}
+
+.rectangle-8 {
+  position: absolute;
+  width: 823px;
+  height: 424px;
+  top: 4px;
+  left: 443px;
+  background: #ffffff;
+  z-index: 12;
+  border-radius: 15px;
+}
+
+.flex-row-dcac {
+  position: relative;
+  width: 687px;
+  height: 29px;
+  margin: 22px 0 0 69px;
+  z-index: 26;
+}
+
+.khordad-1403 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 98px;
+  height: 28px;
+  top: 0;
+  left: 299px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 25;
+}
+
+.next-month {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 62px;
+  height: 28px;
+  top: 1px;
+  left: 22px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 24;
+}
+
+.previous-month {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 66px;
+  height: 28px;
+  top: 1px;
+  left: 599px;
+  color: #808080;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 26;
+}
+
+.vector-9 {
+  position: absolute;
+  width: 1.6%;
+  height: 55.17%;
+  top: 31.03%;
+  left: 98.4%;
+  background: url(./assets/images/5472e48e-862b-4e8d-bf6e-b61b1f1eaac5.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 23;
+}
+
+.vector-a {
+  position: absolute;
+  width: 1.6%;
+  height: 55.17%;
+  top: 31.03%;
+  left: 0;
+  background: url(./assets/images/2654c0fa-c9d9-46e4-be98-d27844683f90.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 20;
+}
+
+.rectangle-b {
+  position: relative;
+  width: 21px;
+  height: 20px;
+  margin: 10px 0 0 747px;
+  background: url(./assets/images/29eb0e31-4b6f-4b58-b18a-f0b83fe2fcbf.png) no-repeat center;
+  background-size: cover;
+  z-index: 46;
+}
+
+.rectangle-c {
+  position: relative;
+  width: 823px;
+  height: 140px;
+  margin: -5px 0 0 0;
+  background: #d4e5e7;
+  z-index: 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rectangle-d {
+  position: absolute;
+  width: 81px;
+  height: 78px;
+  top: 26px;
+  left: 547px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 32;
+  border-radius: 10px;
+}
+
+.text-d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 46px;
+  height: 21px;
+  margin: 7px 0 0 18px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.703px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 48;
+}
+
+.text-e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 9px;
+  height: 23px;
+  margin: 2px 0 0 37px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 55;
+}
+
+.text-f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 52px;
+  height: 13px;
+  margin: 6px 0 0 17px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.939px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 62;
+}
+
+.rectangle-e {
+  position: absolute;
+  width: 80px;
+  height: 78px;
+  top: 26px;
+  left: 109px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 27;
+  border-radius: 10px;
+}
+
+.text-10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 37px;
+  height: 21px;
+  margin: 7px 0 0 22px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.703px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 53;
+}
+
+.text-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 12px;
+  height: 23px;
+  margin: 3px 0 0 33px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 60;
+}
+
+.text-12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 48px;
+  height: 13px;
+  margin: 5px 0 0 15px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.939px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 79;
+}
+
+.rectangle-f {
+  position: absolute;
+  width: 80px;
+  height: 78px;
+  top: 26px;
+  left: 197px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 28;
+  border-radius: 10px;
+}
+
+.text-13 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 57px;
+  height: 21px;
+  margin: 7px 0 0 12px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.703px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 52;
+}
+
+.text-14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 14px;
+  height: 23px;
+  margin: 3px 0 0 32px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 59;
+}
+
+.text-15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 52px;
+  height: 13px;
+  margin: 5px 0 0 16px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.939px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 78;
+}
+
+.rectangle-10 {
+  position: absolute;
+  width: 80px;
+  height: 78px;
+  top: 26px;
+  left: 372px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 30;
+  border-radius: 10px;
+}
+
+.text-16 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 56px;
+  height: 21px;
+  margin: 7px 0 0 13px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.703px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 50;
+}
+
+.text-17 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 11px;
+  height: 23px;
+  margin: 3px 0 0 36px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 57;
+}
+
+.text-18 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 53px;
+  height: 13px;
+  margin: 5px 0 0 16px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.939px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 76;
+}
+
+.rectangle-11 {
+  position: absolute;
+  width: 80px;
+  height: 78px;
+  top: 26px;
+  left: 636px;
+  font-size: 0px;
+  background: #156179;
+  z-index: 33;
+  border-radius: 10px;
+}
+
+.text-19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 31px;
+  height: 21px;
+  margin: 4px 0 0 25px;
+  color: #ffffff;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.703px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 47;
+}
+
+.text-1a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 11px;
+  height: 23px;
+  margin: 5px 0 0 34px;
+  color: #ffffff;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 54;
+}
+
+.empty-slot {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 53px;
+  height: 13px;
+  margin: 3px 0 0 15px;
+  color: #ffffff;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.939px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 61;
+}
+
+.rectangle-12 {
+  position: absolute;
+  width: 79px;
+  height: 78px;
+  top: 26px;
+  left: 285px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 29;
+  border-radius: 10px;
+}
+
+.span-fourth-day {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 64px;
+  height: 21px;
+  margin: 7px 0 0 8px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.703px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 51;
+}
+
+.span-number-9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 10px;
+  height: 23px;
+  margin: 3px 0 0 34px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 58;
+}
+
+.span-empty-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 49px;
+  height: 13px;
+  margin: 5px 0 0 19px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.939px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 77;
+}
+
+.rectangle-13 {
+  position: absolute;
+  width: 79px;
+  height: 78px;
+  top: 26px;
+  left: 460px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 31;
+  border-radius: 10px;
+}
+
+.span-second-day {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 46px;
+  height: 21px;
+  margin: 7px 0 0 17px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.703px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 49;
+}
+
+.span-number-7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 11px;
+  height: 23px;
+  margin: 3px 0 0 34px;
+  color: #4a5254;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 56;
+}
+
+.span-empty-10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 52px;
+  height: 13px;
+  margin: 5px 0 0 16px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.939px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 75;
+}
+
+.vector-14 {
+  position: absolute;
+  width: 3.4%;
+  height: 31.54%;
+  top: 33.85%;
+  left: 88.46%;
+  background: url(./assets/images/eb4500a1-1369-4d7e-8c3c-6ca7409bcea8.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 22;
+}
+
+.vector-15 {
+  position: absolute;
+  width: 3.4%;
+  height: 31.54%;
+  top: 33.85%;
+  left: 8.38%;
+  background: url(./assets/images/a6600c89-b9f5-4b3d-9e14-0892dfde09d9.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 21;
+}
+
+
+
+
+
+
+
+
+#calendar {
+  text-align: center;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  position: relative;
+  z-index: 330;
+  direction: rtl;
+
+
+}
+
+#weekDays .day {
+  display: inline-block;
+  width: 100px;
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  vertical-align: top;
+  border-radius: 10px;
+  font-size: 12px;
+
+
+}
+
+#weekDays .today {
+
+  border-width: 2px;
+  border-color: #156179;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+
+#prevWeek {
+  position: relative;
+  background-color: #32aec0;
+  border: none;
+  background-size: 100% 100%;
+  z-index: 21;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 5px;
+  color: #d4e5e7;
+}
+
+#nextWeek {
+  position: relative;
+  background-color: #32aec0;
+  border: none;
+  background-size: 100% 100%;
+  z-index: 21;
+  border-radius: 5px;
+  padding: 4px;
+  color: #d4e5e7;
+}
+
+
+
+
+
+/* CSS */
+.day {
+  cursor: pointer;
+  /* Other styles for your day divs */
+}
+
+.selectedDay {
+  background-color: #156179;
+  color: #ffffff;
+  /* رنگ زمینه برای روز انتخاب شده */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-row-bc {
+  position: relative;
+  width: 643px;
+  height: 40px;
+  margin: 23px 0 0 91px;
+  z-index: 43;
+}
+
+.button-rectangle {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 43;
+  border-radius: 5px;
+}
+
+.span-time-18-00 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 57px;
+  height: 19px;
+  top: 7px;
+  left: 43px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 72;
+}
+
+.button-rectangle-16 {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 162px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 40;
+  border-radius: 5px;
+}
+
+.span-time-17-45 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 52px;
+  height: 21px;
+  top: 7px;
+  left: 51px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 69;
+}
+
+.button-rectangle-17 {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 324px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 37;
+  border-radius: 5px;
+}
+
+.span-time-17-30 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 54px;
+  height: 19px;
+  top: 8px;
+  left: 50px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 66;
+}
+
+.button-rectangle-18 {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 486px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 34;
+  border-radius: 5px;
+}
+
+.span-time-17-15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 48px;
+  height: 21px;
+  top: 8px;
+  left: 52px;
+  color: #ffffff;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 63;
+}
+
+.flex-row-ddf {
+  position: relative;
+  width: 643px;
+  height: 40px;
+  margin: 6px 0 0 91px;
+  z-index: 44;
+}
+
+.rectangle-19 {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 44;
+  border-radius: 5px;
+}
+
+.time-19-00 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 57px;
+  height: 20px;
+  top: 7px;
+  left: 48px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 73;
+}
+
+.rectangle-1a {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 162px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 41;
+  border-radius: 5px;
+}
+
+.time-18-45 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 56px;
+  height: 20px;
+  top: 7px;
+  left: 49px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 70;
+}
+
+.rectangle-1b {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 324px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 38;
+  border-radius: 5px;
+}
+
+.time-18-30 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 54px;
+  height: 19px;
+  top: 7px;
+  left: 50px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 67;
+}
+
+.rectangle-1c {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 486px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 35;
+  border-radius: 5px;
+}
+
+.time-18-15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 50px;
+  height: 21px;
+  top: 7px;
+  left: 51px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 64;
+}
+
+.flex-row-1d {
+  position: relative;
+  width: 643px;
+  height: 40px;
+  margin: 6px 0 0 91px;
+  z-index: 45;
+}
+
+.rectangle-1e {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 45;
+  border-radius: 5px;
+}
+
+.time-20-00 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 57px;
+  height: 21px;
+  top: 7px;
+  left: 48px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 74;
+}
+
+.rectangle-1f {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 162px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 42;
+  border-radius: 5px;
+}
+
+.time-19-45 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  top: 7px;
+  left: 50px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 71;
+}
+
+.rectangle-20 {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 324px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 39;
+  border-radius: 5px;
+}
+
+.time-19-30 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  top: 7px;
+  left: 50px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 68;
+}
+
+.rectangle-21 {
+  position: absolute;
+  width: 157px;
+  height: 40px;
+  top: 0;
+  left: 486px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #69d467;
+  z-index: 36;
+  border-radius: 5px;
+}
+
+.time-19-15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 50px;
+  height: 19px;
+  top: 7px;
+  left: 51px;
+  color: #666666;
+  font-family: Vazir FD-UI, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 65;
+}

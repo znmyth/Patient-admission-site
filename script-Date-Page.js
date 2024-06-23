@@ -76,3 +76,302 @@ function changeRectangleColor(element) {
       changeRectangleColor(this);
     });
   });
+
+
+
+
+
+// آرایه‌ای از ماه‌ها
+const months = ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر', 'آبان', 'آذر', 'دی', 'بهمن', 'اسفند'];
+let currentMonthIndex = 2; // اندیس خرداد در آرایه
+
+// تابعی برای نمایش ماه بعدی با محدودیت
+function nextMonth() {
+  if (currentMonthIndex < 4) { // اندیس مرداد در آرایه
+    currentMonthIndex++;
+    updateMonthDisplay();
+  }
+}
+
+// تابعی برای نمایش ماه قبلی با محدودیت
+function previousMonth() {
+  if (currentMonthIndex > 2) { // اندیس خرداد در آرایه
+    currentMonthIndex--;
+    updateMonthDisplay();
+  }
+}
+
+// تابعی برای به‌روزرسانی نمایش ماه
+function updateMonthDisplay() {
+  document.querySelector('.khordad-1403').textContent = months[currentMonthIndex] + ' 1403';
+}
+
+// اضافه کردن event listener به دکمه‌ها
+document.querySelector('.next-month').addEventListener('click', nextMonth);
+document.querySelector('.previous-month').addEventListener('click', previousMonth);
+
+// به‌روزرسانی نمایش اولیه
+updateMonthDisplay();
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var currentDate = new Date();
+
+// function updateCalendar() {
+//   var weekDays = document.getElementById('weekDays');
+//   weekDays.innerHTML = ''; // Clear the current content
+//   var dayNames = ['یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه', 'شنبه'];
+  
+//   for (var i = 0; i < 7; i++) {
+//     var day = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() + i - currentDate.getDay());
+//     var div = document.createElement('div');
+//     div.className = 'day' + (day.toDateString() === new Date().toDateString() ? ' today' : '');
+//     div.innerHTML = '<strong>' + dayNames[day.getDay()] + '</strong><br>' + day.getDate() + '<br>12 نوبت خالی';
+//     weekDays.appendChild(div);
+//   }
+// }
+
+// document.getElementById('prevWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() - 7);
+//   updateCalendar();
+// });
+
+// document.getElementById('nextWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() + 7);
+//   updateCalendar();
+// });
+
+// updateCalendar(); // Initialize the calendar
+
+
+
+
+
+
+
+
+
+
+// var currentDate = new Date();
+
+// function updateCalendar() {
+//   var weekDays = document.getElementById('weekDays');
+//   weekDays.innerHTML = ''; // Clear the current content
+//   var dayNames = ['یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه', 'شنبه'];
+  
+//   for (var i = 0; i < 7; i++) {
+//     var day = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() + i - currentDate.getDay());
+//     var persianDate = day.toLocaleDateString('fa-IR-u-nu-latn'); // تبدیل تاریخ به شمسی
+//     var dateParts = persianDate.split('/'); // جداسازی بخش‌های تاریخ شمسی
+//     var div = document.createElement('div');
+//     div.className = 'day' + (day.toDateString() === new Date().toDateString() ? ' today' : '');
+//     div.innerHTML = '<strong>' + dayNames[day.getDay()] + '</strong><br>' + dateParts[2] + '<br>12 نوبت خالی'; // استفاده از روز شمسی
+//     weekDays.appendChild(div);
+//   }
+  
+// }
+
+// document.getElementById('prevWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() - 7);
+//   updateCalendar();
+// });
+
+// document.getElementById('nextWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() + 7);
+//   updateCalendar();
+// });
+
+// updateCalendar(); // Initialize the calendar
+
+
+
+
+// var currentDate = new Date();
+
+// function convertDayIndex(jsDayIndex) {
+//   // تبدیل اندیس یکشنبه (0) به شنبه (6)، دوشنبه (1) به یکشنبه (0)، و غیره
+//   return (jsDayIndex + 7) % 7;
+// }
+
+// function getDayName(dayIndex) {
+//   var dayNames = ['یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه', 'شنبه'];
+//   return dayNames[dayIndex];
+// }
+
+// function updateCalendar() {
+//   var weekDays = document.getElementById('weekDays');
+//   weekDays.innerHTML = ''; // Clear the current content
+  
+//   for (var i = -1; i < 7; i++) {
+//     var day = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() + i - currentDate.getDay());
+//     var persianDate = day.toLocaleDateString('fa-IR-u-nu-latn'); // تبدیل تاریخ به شمسی
+//     var dateParts = persianDate.split('/'); // جداسازی بخش‌های تاریخ شمسی
+//     var div = document.createElement('div');
+//     div.className = 'day' + (day.toDateString() === new Date().toDateString() ? ' today' : '');
+//     div.innerHTML = '<strong>' + getDayName(convertDayIndex(day.getDay())) + '</strong><br>' + dateParts[2] + '<br>12 نوبت خالی'; // استفاده از روز شمسی مطابق با آرایه فارسی
+//     weekDays.appendChild(div);
+//   }
+// }
+
+// document.getElementById('prevWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() - 7);
+//   updateCalendar();
+// });
+
+// document.getElementById('nextWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() + 7);
+//   updateCalendar();
+// });
+
+// updateCalendar(); // Initialize the calendar
+
+
+
+
+
+
+
+// JavaScript
+var currentDate = new Date();
+var selectedElement = null; // نگه داشتن عنصر انتخاب شده
+
+function convertDayIndex(jsDayIndex) {
+  return (jsDayIndex + 7) % 7;
+}
+
+function getDayName(dayIndex) {
+  var dayNames = ['یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه', 'شنبه'];
+  return dayNames[dayIndex];
+}
+
+function selectDay(element) {
+  if (selectedElement) {
+    selectedElement.classList.remove('selectedDay');
+  }
+  selectedElement = element;
+  selectedElement.classList.add('selectedDay');
+}
+
+function updateCalendar() {
+  var weekDays = document.getElementById('weekDays');
+  weekDays.innerHTML = '';
+  
+  for (var i = -1; i < 6; i++) {
+    var day = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() + i - currentDate.getDay());
+    var persianDate = day.toLocaleDateString('fa-IR-u-nu-latn');
+    var dateParts = persianDate.split('/');
+    var div = document.createElement('div');
+    div.className = 'day' + (day.toDateString() === new Date().toDateString() ? ' today' : '');
+    div.innerHTML = '<strong>' + getDayName(convertDayIndex(day.getDay())) + '</strong><br>' + dateParts[2] + '<br>12 نوبت خالی';
+    div.onclick = function() {
+      selectDay(this);
+    };
+    weekDays.appendChild(div);
+  }
+}
+
+document.getElementById('prevWeek').addEventListener('click', function() {
+  currentDate.setDate(currentDate.getDate() - 7);
+  updateCalendar();
+});
+
+document.getElementById('nextWeek').addEventListener('click', function() {
+  currentDate.setDate(currentDate.getDate() + 7);
+  updateCalendar();
+});
+
+updateCalendar(); // Initialize the calendar
+
+
+
+
+
+
+// var currentDate = new Date();
+
+// function updateCalendar() {
+//   var weekDays = document.getElementById('weekDays');
+//   weekDays.innerHTML = ''; // Clear the current content
+//   var dayNames = ['جمعه', 'پنج‌شنبه', 'چهارشنبه', 'سه‌شنبه', 'دوشنبه', 'یکشنبه', 'شنبه'];
+  
+//   // تنظیم اندیس برای شروع از جمعه
+//   var startDayIndex = currentDate.getDay();
+//   var startIndex = (startDayIndex + 1) % 7;
+  
+//   for (var i = 0; i < 7; i++) {
+//     var dayIndex = (startIndex + i) % 7;
+//     var day = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - startDayIndex + dayIndex);
+//     var persianDate = day.toLocaleDateString('fa-IR-u-nu-latn'); // تبدیل تاریخ به شمسی
+//     var dateParts = persianDate.split('/'); // جداسازی بخش‌های تاریخ شمسی
+//     var div = document.createElement('div');
+//     div.className = 'day' + (day.toDateString() === new Date().toDateString() ? ' today' : '');
+//     div.innerHTML = '<strong>' + dayNames[dayIndex] + '</strong><br>' + dateParts[2] + '<br>12 نوبت خالی'; // استفاده از روز شمسی
+//     weekDays.appendChild(div);
+//   }
+// }
+
+// document.getElementById('prevWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() - 7);
+//   updateCalendar();
+// });
+
+// document.getElementById('nextWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() + 7);
+//   updateCalendar();
+// });
+
+// updateCalendar(); // Initialize the calendar
+
+
+
+
+
+
+
+
+
+
+// var currentDate = new Date();
+
+// function updateCalendar() {
+//   var weekDays = document.getElementById('weekDays');
+//   weekDays.innerHTML = ''; // Clear the current content
+//   var dayNames = ['شنبه', 'یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه'].reverse();
+  
+//   // تنظیم اندیس برای شروع از جمعه
+//   var startDayIndex = currentDate.getDay();
+//   var startIndex = (startDayIndex + 1) % 7;
+  
+//   for (var i = 0; i < 7; i++) {
+//     var dayIndex = (startIndex + i) % 7;
+//     var day = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - startDayIndex + dayIndex);
+//     var persianDate = day.toLocaleDateString('fa-IR-u-nu-latn'); // تبدیل تاریخ به شمسی
+//     var dateParts = persianDate.split('/'); // جداسازی بخش‌های تاریخ شمسی
+//     var div = document.createElement('div');
+//     div.className = 'day' + (day.toDateString() === new Date().toDateString() ? ' today' : '');
+//     div.innerHTML = '<strong>' + dayNames[dayIndex] + '</strong><br>' + dateParts[2] + '<br>12 نوبت خالی'; // استفاده از روز شمسی
+//     weekDays.appendChild(div);
+//   }
+// }
+
+// document.getElementById('nextWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() + 7);
+//   updateCalendar();
+// });
+
+// document.getElementById('prevWeek').addEventListener('click', function() {
+//   currentDate.setDate(currentDate.getDate() - 7);
+//   updateCalendar();
+// });
+
+// updateCalendar(); // Initialize the calendar
