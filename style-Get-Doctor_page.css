@@ -79,7 +79,7 @@
 
 
 
-#container001 {
+#salam {
   width: 40%;
   height: 65%;
   margin-top: -100px ;
@@ -293,6 +293,7 @@ nav-item.dropdown {
 
 .main-container {
   overflow: hidden;
+
 }
 
 .main-container,
@@ -2435,7 +2436,7 @@ button {
   border-radius: 15px;
 }
 
-.online-consultation {
+/* .online-consultation {
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
@@ -2454,7 +2455,7 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 132;
-}
+} */
 
 .vector-63 {
   position: absolute;

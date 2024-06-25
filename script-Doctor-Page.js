@@ -78,3 +78,48 @@ function updateContent(pageNumber) {
 document.addEventListener('DOMContentLoaded', function() {
   updateContent(currentPage);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+function expandText() {
+  var dots = document.querySelector('.tab-yar');
+  var moreText = document.getElementById("more-text");
+
+  if (dots.style.overflow === "hidden") {
+    dots.style.overflow = "visible";
+    dots.style.whiteSpace = "normal";
+    moreText.style.display = "inline";
+  } else {
+    dots.style.overflow = "hidden";
+    dots.style.whiteSpace = "nowrap";
+    moreText.style.display = "none";
+  }
+}
+
+
+
+
+
+
+
+
+// اضافه کردن event listener به هر عنصر
+document.querySelectorAll('a span').forEach(function(el) {
+  el.addEventListener('click', function() {
+    // حذف کلاس active از تمام عناصر
+    document.querySelectorAll('a span.active').forEach(function(activeEl) {
+      activeEl.classList.remove('active');
+    });
+    // اضافه کردن کلاس active به عنصر کلیک شده
+    this.classList.add('active');
+  });
+});

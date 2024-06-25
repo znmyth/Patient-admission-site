@@ -77,7 +77,7 @@ function expandText() {
 
 
 // highcharts.com
-Highcharts.chart('container001', {
+Highcharts.chart('salam', {
   chart: {
       type: 'bar',
       backgroundColor: '#f5f5f5',
