@@ -26,6 +26,30 @@ color: #32aec0 !important;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .pagination {
   display: flex;
   justify-content: center;
@@ -601,16 +625,22 @@ nav-item.dropdown {
 
 
 
-
+.form-check{
+  z-index: 1000;
+  margin-top: 800px;
+  margin-left: 500px;
+}
 
 
 .main-container {
   overflow: hidden;
+
 }
 
 .main-container,
 .main-container * {
   box-sizing: border-box;
+
 }
 
 input,
@@ -627,6 +657,7 @@ button {
   margin: 0 auto;
   background: #d4e5e7;
   overflow: hidden;
+
 }
 
 .flex-row-bb {
@@ -978,7 +1009,7 @@ button {
   top: 126px;
   left: 899px;
   background: #32aec0;
-  z-index: 27;
+  z-index: 0;
   border-radius: 15px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
@@ -1002,7 +1033,9 @@ button {
   background: #ffffff;
   z-index: 49;
   border-radius: 15px;
+  cursor: pointer !important;
 }
+
 
 .phone-chat-filled {
   position: relative;
@@ -1232,6 +1265,8 @@ button {
   white-space: nowrap;
   z-index: 58;
 }
+
+
 
 .vector-13 {
   position: absolute;
@@ -1528,7 +1563,7 @@ button {
   width: 82px;
   height: 20px;
   margin: 10px 0 0 363px;
-  z-index: 64;
+  z-index: 0;
 }
 
 .female-male {
@@ -1546,7 +1581,7 @@ button {
   line-height: 18px;
   text-align: right;
   white-space: nowrap;
-  z-index: 64;
+  z-index: 0;
 }
 
 .rectangle-1e {
