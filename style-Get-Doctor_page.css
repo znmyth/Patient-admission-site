@@ -17,6 +17,137 @@
 
 
 
+
+
+
+
+
+
+#container001 {
+  width: 40%;
+  height: 65%;
+  margin-top: -100px ;
+  margin-left:20px ;
+  background-color: #f5f5f5;
+  padding: 20px;
+
+  z-index: 2000;
+}
+
+
+
+
+
+
+
+
+
+/* .pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+
+  
+}
+
+.page-item {
+  margin: 4px;
+
+ 
+}
+
+.page-link {
+  display: block;
+  padding: 8px 16px;
+  background-color: #32aec0;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.page-link:hover {
+  background-color: #156179;
+  color: #ffffff;
+}
+
+
+.content-page {
+  display: none;
+}
+
+.content-page.active {
+  display: block;
+} */
+
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 4px;
+}
+
+.page-link {
+  display: block;
+  padding: 8px 16px;
+  background-color: #32aec0;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.page-link:hover {
+  background-color: #156179;
+  color: #ffffff;
+}
+
+.content-page {
+  display: none;
+  
+
+}
+
+.content-page.active {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* استایل برای منوهای کشویی */
 nav-item.dropdown {
   position: relative;
@@ -575,15 +706,17 @@ button {
   z-index: 170;
 }
 
-.group {
+.vector-a00  {
   position: absolute;
-  width: 2.75%;
-  height: 12.06%;
-  top: 50.35%;
+  width: 2.5%;
+  height: 12.29%;
+  top: 73.05%;
   left: 97.25%;
-  background: url(./assets/images/4bc40a90-a2f0-4168-b6cc-e0e309f2cf1f.png) no-repeat center;
+  background: url(./assets/images/4942286f-2fac-4df9-83db-6c1667601e1a.png) no-repeat center;
   background-size: 100% 100%;
-  z-index: 168;
+  z-index: 169;
+  margin-top: -36px;
+
 }
 
 .clinic-phone-number {
@@ -1292,7 +1425,7 @@ button {
   width: 92px;
   height: 33px;
   color: #f9f9f9;
-  font-family: Inter, var(--default-font-family);
+  font-family: Vazir FD-UI, var(--default-font-family);
   font-size: 27px;
   font-weight: 500;
   line-height: 32.676px;
@@ -1518,6 +1651,7 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 122;
+  direction: rtl;
 }
 
 .mask-group-3f {
@@ -1552,6 +1686,16 @@ button {
   z-index: 222;
 }
 
+
+.line-041 {
+  position: relative;
+  width: 646.667px;
+  height: 2.666px;
+  margin: 15.667px 0 0 24.667px;
+  background: url(./assets/images/5fa32b7b-4f07-435b-ab5e-4bde7dd33816.png) no-repeat center;
+  background-size: cover;
+  z-index: 222;
+}
 .span-42 {
   display: flex;
   align-items: flex-start;
@@ -1568,6 +1712,7 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 125;
+  direction: rtl;
 }
 
 .rectangle-43 {
@@ -1757,6 +1902,7 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 123;
+  direction: rtl;
 }
 
 .vector-50 {
@@ -1781,15 +1927,7 @@ button {
   z-index: 213;
 }
 
-.line-52 {
-  position: relative;
-  width: 646.667px;
-  height: 2.666px;
-  margin: 6.981px 0 0 24.667px;
-  background: url(./assets/images/d149dadd-dd70-45fe-a961-d88a2a6484e3.png) no-repeat center;
-  background-size: cover;
-  z-index: 223;
-}
+
 
 .rude-impatient {
   display: flex;
@@ -1807,6 +1945,7 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 126;
+  direction: rtl;
 }
 
 .flex-row-53 {
@@ -1956,7 +2095,7 @@ button {
 .rectangle-56 {
   position: relative;
   width: 791px;
-  height: 246px;
+  height: 210px;
   margin: 10px 0 0 570px;
   font-size: 0px;
   background: #d4e5e7;
@@ -2028,6 +2167,7 @@ button {
   line-height: 20.703px;
   text-align: right;
   z-index: 139;
+  direction: rtl;
 }
 
 .rectangle-58 {
@@ -2804,6 +2944,7 @@ button {
   background: #207689;
   z-index: 93;
 }
+
 .flex-row-107 {
   position: absolute;
   width: 88.83%;
@@ -2812,6 +2953,7 @@ button {
   left: 5.55%;
   z-index: 402;
 }
+
 .useful-links {
   display: flex;
   align-items: flex-start;
@@ -2830,17 +2972,18 @@ button {
   white-space: nowrap;
   z-index: 344;
 }
+
 .logo-text-108 {
   position: absolute;
   width: 167px;
   height: 70px;
   top: 0;
   left: 1113px;
-  background: url(./assets/images/4c95051d90bde9f1187ce15c06c879a606444b40.png)
-    no-repeat center;
+  background: url(./assets/images/4c95051d90bde9f1187ce15c06c879a606444b40.png) no-repeat center;
   background-size: cover;
   z-index: 402;
 }
+
 .about-us {
   display: flex;
   align-items: flex-start;
@@ -2858,6 +3001,7 @@ button {
   text-align: right;
   z-index: 348;
 }
+
 .tab-yar {
   color: #ffffff;
   position: absolute;
@@ -2873,11 +3017,14 @@ button {
   z-index: 347;
   direction: rtl;
 
-  overflow: hidden; /* اطمینان حاصل کنید که محتوا در صورت بیش از حد بودن، قابل رویت نیست */
+  overflow: hidden;
+  /* اطمینان حاصل کنید که محتوا در صورت بیش از حد بودن، قابل رویت نیست */
 
-  text-overflow: ellipsis; /* اضافه کردن نقطه‌چین در انتهای متن */
-  
-  white-space: nowrap; /* جلوگیری از شکسته شدن خطوط */
+  text-overflow: ellipsis;
+  /* اضافه کردن نقطه‌چین در انتهای متن */
+
+  white-space: nowrap;
+  /* جلوگیری از شکسته شدن خطوط */
 
 }
 
@@ -2893,6 +3040,7 @@ button {
   text-align: right;
   direction: rtl;
 }
+
 .empty {
   position: relative;
   color: #ffffff;
@@ -2902,6 +3050,7 @@ button {
   line-height: 24.205px;
   text-align: right;
 }
+
 .read-more {
   position: relative;
   color: #ebfafb;
@@ -2911,6 +3060,7 @@ button {
   line-height: 24.205px;
   text-align: right;
 }
+
 .responsive-support {
   display: flex;
   align-items: flex-start;
@@ -2929,17 +3079,18 @@ button {
   white-space: nowrap;
   z-index: 349;
 }
+
 .vector-10a {
   position: absolute;
   width: 1.56%;
   height: 4.99%;
   top: 18.71%;
   left: 97.81%;
-  background: url(./assets/images/aee184b0-4521-4390-a122-de1c55877fc6.png)
-    no-repeat center;
+  background: url(./assets/images/aee184b0-4521-4390-a122-de1c55877fc6.png) no-repeat center;
   background-size: 100% 100%;
   z-index: 353;
 }
+
 .phone-solid {
   position: absolute;
   width: 26px;
@@ -2949,6 +3100,7 @@ button {
   z-index: 358;
   overflow: hidden;
 }
+
 .phone-number {
   display: flex;
   align-items: flex-start;
@@ -2967,17 +3119,18 @@ button {
   white-space: nowrap;
   z-index: 352;
 }
+
 .vector-10b {
   position: absolute;
   width: 1.35%;
   height: 3.6%;
   top: 29.59%;
   left: 98.07%;
-  background: url(./assets/images/d12c4253-2c76-47b9-9dbf-90d3d8c3d41f.png)
-    no-repeat center;
+  background: url(./assets/images/d12c4253-2c76-47b9-9dbf-90d3d8c3d41f.png) no-repeat center;
   background-size: 100% 100%;
   z-index: 359;
 }
+
 .social-media {
   display: flex;
   align-items: flex-start;
@@ -2997,39 +3150,40 @@ button {
   z-index: 350;
   direction: rtl;
 }
+
 .group {
   position: absolute;
   width: 2.5%;
   height: 6.65%;
   top: 46.15%;
   left: 97.19%;
-  background: url(./assets/images/fdb19295-162d-4eba-9ccb-3815a2744fdc.png)
-    no-repeat center;
+  background: url(./assets/images/fdb19295-162d-4eba-9ccb-3815a2744fdc.png) no-repeat center;
   background-size: 100% 100%;
   z-index: 354;
 }
+
 .vector-10c {
   position: absolute;
   width: 2.11%;
   height: 5.61%;
   top: 46.78%;
   left: 89.92%;
-  background: url(./assets/images/0ed76806-ebc4-437a-993c-e88d2183077f.png)
-    no-repeat center;
+  background: url(./assets/images/0ed76806-ebc4-437a-993c-e88d2183077f.png) no-repeat center;
   background-size: 100% 100%;
   z-index: 356;
 }
+
 .vector-10d {
   position: absolute;
   width: 2.11%;
   height: 5.61%;
   top: 46.78%;
   left: 93.91%;
-  background: url(./assets/images/bc07a5b1-6443-42cc-a0c7-e02dcaa83390.png)
-    no-repeat center;
+  background: url(./assets/images/bc07a5b1-6443-42cc-a0c7-e02dcaa83390.png) no-repeat center;
   background-size: 100% 100%;
   z-index: 355;
 }
+
 .tehran-argentinian-square {
   display: flex;
   align-items: flex-start;
@@ -3047,17 +3201,18 @@ button {
   text-align: right;
   z-index: 351;
 }
+
 .vector-10e {
   position: absolute;
   width: 1.88%;
   height: 5.81%;
   top: 59.46%;
   left: 97.81%;
-  background: url(./assets/images/7178a738-103e-4c1a-9712-b3fa2820f12d.png)
-    no-repeat center;
+  background: url(./assets/images/7178a738-103e-4c1a-9712-b3fa2820f12d.png) no-repeat center;
   background-size: 100% 100%;
   z-index: 357;
 }
+
 .certificates {
   display: flex;
   align-items: flex-start;
@@ -3076,6 +3231,7 @@ button {
   white-space: nowrap;
   z-index: 345;
 }
+
 .rectangle-10f {
   position: absolute;
   width: 86px;
@@ -3086,17 +3242,18 @@ button {
   z-index: 360;
   border-radius: 15px;
 }
+
 .rectangle-110 {
   position: relative;
   width: 86px;
   height: 86px;
   margin: 0 0 0 1px;
-  background: url(./assets/images/06c0afeb24f932f118abd5fa01c6f381ebf20185.png)
-    no-repeat center;
+  background: url(./assets/images/06c0afeb24f932f118abd5fa01c6f381ebf20185.png) no-repeat center;
   background-size: cover;
   z-index: 399;
   border-radius: 15px;
 }
+
 .rectangle-111 {
   position: absolute;
   width: 86px;
@@ -3107,17 +3264,18 @@ button {
   z-index: 361;
   border-radius: 15px;
 }
+
 .rectangle-112 {
   position: relative;
   width: 80px;
   height: 84px;
   margin: 3px 0 0 4px;
-  background: url(./assets/images/75be75d493e7b8c412c75c34ddaddd7b3661bdc0.png)
-    no-repeat center;
+  background: url(./assets/images/75be75d493e7b8c412c75c34ddaddd7b3661bdc0.png) no-repeat center;
   background-size: cover;
   z-index: 362;
   border-radius: 15px;
 }
+
 .postal-code {
   display: flex;
   align-items: flex-start;
@@ -3136,17 +3294,18 @@ button {
   white-space: nowrap;
   z-index: 342;
 }
+
 .vector-113 {
   position: absolute;
   width: 1.8%;
   height: 3.74%;
   top: 74.43%;
   left: 97.81%;
-  background: url(./assets/images/e3489f0f-d9ba-463c-88e0-f0236806cd22.png)
-    no-repeat center;
+  background: url(./assets/images/e3489f0f-d9ba-463c-88e0-f0236806cd22.png) no-repeat center;
   background-size: 100% 100%;
   z-index: 400;
 }
+
 .related-rights {
   display: flex;
   align-items: flex-start;
@@ -3166,17 +3325,18 @@ button {
   z-index: 343;
   direction: rtl;
 }
+
 .vector-114 {
   position: absolute;
   width: 1.64%;
   height: 4.37%;
   top: 84.62%;
   left: 98.05%;
-  background: url(./assets/images/574881f6-c2be-4c30-92e5-37cff16c4692.png)
-    no-repeat center;
+  background: url(./assets/images/574881f6-c2be-4c30-92e5-37cff16c4692.png) no-repeat center;
   background-size: 100% 100%;
   z-index: 401;
 }
+
 .online-consultation {
   display: flex;
   align-items: flex-start;
@@ -3321,6 +3481,7 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 53;
+  direction: rtl;
 }
 
 .get-appointment {
@@ -3336,7 +3497,20 @@ button {
   border: none;
   z-index: 42;
   border-radius: 15px;
+
 }
+
+
+#decor {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
 
 .get-appointment-80 {
   display: flex;
@@ -3354,6 +3528,7 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 42;
+
 }
 
 .rectangle-81 {
@@ -3693,23 +3868,27 @@ button {
 }
 
 .opinion-92 {
-  position: relative;
+  position: absolute;
   color: #ffffff;
   font-family: Vazir FD-UI, var(--default-font-family);
   font-size: 12px;
   font-weight: 500;
   line-height: 14.523px;
   text-align: right;
+  margin-left: -46px;
+  margin-top: 5px;
 }
 
 .rating {
-  position: relative;
+  position: absolute;
   color: #ffffff;
   font-family: Vazir FD-UI, var(--default-font-family);
   font-size: 18px;
   font-weight: 500;
   line-height: 21.6px;
   text-align: right;
+  margin-left: -60px;
+
 }
 
 .flex-row-f-93 {
@@ -4030,7 +4209,7 @@ button {
   width: 122px;
   height: 22px;
   top: 8px;
-  left: 12px;
+  left: 5px;
   color: #ffffff;
   font-family: Vazir FD-UI, var(--default-font-family);
   font-size: 18px;
@@ -4144,6 +4323,7 @@ button {
   text-align: right;
   white-space: nowrap;
   z-index: 54;
+  direction: rtl;
 }
 
 .button-rectangle-9f {
@@ -4220,13 +4400,14 @@ button {
 
 .rectangle-a1 {
   position: absolute;
-  width: 73px;
+  width: 60px;
   height: 29px;
   top: 0;
   left: 0;
   background: #ffffff;
   z-index: 142;
   border-radius: 10px;
+  margin-left: 18px;
 }
 
 .span-medical-code-a2 {
@@ -4263,6 +4444,7 @@ button {
   font-weight: 500;
   line-height: 21.784px;
   text-align: right;
+
 }
 
 .flex-row-cb {
@@ -4271,7 +4453,34 @@ button {
   height: 200px;
   margin: 13px 0 0 19px;
   z-index: 145;
+  direction: rtl;
 }
+
+/* .flex-row-cb{
+  color: #ffffff;
+  position: relative;
+  width: 746px;
+  height: 200px;
+  top: 41px;
+  left: 0;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: right;
+  z-index: 347;
+  direction: rtl;
+
+  overflow: hidden;
+  /* اطمینان حاصل کنید که محتوا در صورت بیش از حد بودن، قابل رویت نیست */
+
+  /* text-overflow: ellipsis; */
+  /* اضافه کردن نقطه‌چین در انتهای متن */
+
+  /* white-space: nowrap; */
+  /* جلوگیری از شکسته شدن خطوط */
+
+/* }  */
 
 .span-doctor-info {
   display: flex;

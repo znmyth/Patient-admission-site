@@ -9,6 +9,76 @@
 
 
 
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 4px;
+}
+
+.page-link {
+  display: block;
+  padding: 8px 16px;
+  background-color: #32aec0;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.page-link:hover {
+  background-color: #156179;
+  color: #ffffff;
+}
+
+.content-page {
+  display: none;
+  
+
+}
+
+.content-page.active {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* استایل برای منوهای کشویی */
 nav-item.dropdown {
   position: relative;
@@ -2076,9 +2146,10 @@ button {
   width: 798px;
   height: 51px;
   top: 0;
+  margin-top: 833px;
   left: 76px;
   background: #32aec0;
-  z-index: 29;
+  z-index: 300;
   border-radius: 15px;
 }
 

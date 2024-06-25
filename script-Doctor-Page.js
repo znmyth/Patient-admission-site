@@ -33,3 +33,48 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let currentPage = 1; // شماره صفحه فعلی
+const totalPages = 2; // تعداد کل صفحات
+
+function changePage(pageNumber) {
+  currentPage = pageNumber;
+
+  if (currentPage < 1) {
+    currentPage = totalPages;
+  } else if (currentPage > totalPages) {
+    currentPage = 1;
+  }
+
+  updateContent(currentPage);
+}
+
+function updateContent(pageNumber) {
+  document.querySelectorAll('.content-page').forEach(page => {
+    page.classList.remove('active');
+  });
+
+  const pageId = `content-page-${pageNumber}`;
+  document.getElementById(pageId).classList.add('active');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  updateContent(currentPage);
+});
