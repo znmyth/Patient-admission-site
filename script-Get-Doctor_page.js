@@ -264,3 +264,21 @@ function updateContent(pageNumber) {
 document.addEventListener('DOMContentLoaded', function() {
   updateContent(currentPage);
 });
+
+
+
+
+
+function toggleTooltip(elem) {
+  var tooltip = elem.querySelector('.tooltip');
+  var isTooltipVisible = tooltip.style.opacity === '1';
+  if (isTooltipVisible) {
+    tooltip.style.opacity = 0;
+    setTimeout(function() { tooltip.style.display = 'none'; }, 300);
+  } else {
+    tooltip.style.display = 'block';
+    setTimeout(function() { tooltip.style.opacity = 1; }, 0);
+  }
+}
+
+
